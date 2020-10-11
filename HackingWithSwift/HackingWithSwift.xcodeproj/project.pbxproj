@@ -3,16 +3,19 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		542E8CFF2533C0AE008BF7B5 /* SwiftUIJson in Frameworks */ = {isa = PBXBuildFile; productRef = 542E8CFE2533C0AE008BF7B5 /* SwiftUIJson */; };
+		542E8D012533C0B7008BF7B5 /* SwiftUIJson in Frameworks */ = {isa = PBXBuildFile; productRef = 542E8D002533C0B7008BF7B5 /* SwiftUIJson */; };
 		54879D242533BBE800411093 /* HackingWithSwiftApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54879D112533BBE800411093 /* HackingWithSwiftApp.swift */; };
 		54879D252533BBE800411093 /* HackingWithSwiftApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54879D112533BBE800411093 /* HackingWithSwiftApp.swift */; };
 		54879D262533BBE800411093 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54879D122533BBE800411093 /* ContentView.swift */; };
 		54879D272533BBE800411093 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54879D122533BBE800411093 /* ContentView.swift */; };
 		54879D282533BBE800411093 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 54879D132533BBE800411093 /* Assets.xcassets */; };
 		54879D292533BBE800411093 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 54879D132533BBE800411093 /* Assets.xcassets */; };
+		54B4A6842533C5EA004CEAC5 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 54B4A6832533C5EA004CEAC5 /* README.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +27,7 @@
 		54879D202533BBE800411093 /* HackingWithSwift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HackingWithSwift.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		54879D222533BBE800411093 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		54879D232533BBE800411093 /* macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = macOS.entitlements; sourceTree = "<group>"; };
+		54B4A6832533C5EA004CEAC5 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +35,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				542E8CFF2533C0AE008BF7B5 /* SwiftUIJson in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -38,19 +43,29 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				542E8D012533C0B7008BF7B5 /* SwiftUIJson in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		542E8CFD2533C0AE008BF7B5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		54879D0B2533BBE800411093 = {
 			isa = PBXGroup;
 			children = (
+				54B4A6832533C5EA004CEAC5 /* README.md */,
 				54879D102533BBE800411093 /* Shared */,
 				54879D1A2533BBE800411093 /* iOS */,
 				54879D212533BBE800411093 /* macOS */,
 				54879D192533BBE800411093 /* Products */,
+				542E8CFD2533C0AE008BF7B5 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -106,6 +121,9 @@
 			dependencies = (
 			);
 			name = "HackingWithSwift (iOS)";
+			packageProductDependencies = (
+				542E8CFE2533C0AE008BF7B5 /* SwiftUIJson */,
+			);
 			productName = "HackingWithSwift (iOS)";
 			productReference = 54879D182533BBE800411093 /* HackingWithSwift.app */;
 			productType = "com.apple.product-type.application";
@@ -123,6 +141,9 @@
 			dependencies = (
 			);
 			name = "HackingWithSwift (macOS)";
+			packageProductDependencies = (
+				542E8D002533C0B7008BF7B5 /* SwiftUIJson */,
+			);
 			productName = "HackingWithSwift (macOS)";
 			productReference = 54879D202533BBE800411093 /* HackingWithSwift.app */;
 			productType = "com.apple.product-type.application";
@@ -168,6 +189,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				54B4A6842533C5EA004CEAC5 /* README.md in Resources */,
 				54879D282533BBE800411093 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -439,6 +461,17 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		542E8CFE2533C0AE008BF7B5 /* SwiftUIJson */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = SwiftUIJson;
+		};
+		542E8D002533C0B7008BF7B5 /* SwiftUIJson */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = SwiftUIJson;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 54879D0C2533BBE800411093 /* Project object */;
 }

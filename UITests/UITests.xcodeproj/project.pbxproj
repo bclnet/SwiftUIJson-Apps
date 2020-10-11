@@ -3,10 +3,12 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		542E8D092533C0DC008BF7B5 /* SwiftUIJson in Frameworks */ = {isa = PBXBuildFile; productRef = 542E8D082533C0DC008BF7B5 /* SwiftUIJson */; };
+		542E8D0B2533C0E5008BF7B5 /* SwiftUIJson in Frameworks */ = {isa = PBXBuildFile; productRef = 542E8D0A2533C0E5008BF7B5 /* SwiftUIJson */; };
 		5441D0852533BECD0006C874 /* Z01a_Animation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5441D0752533BECD0006C874 /* Z01a_Animation.swift */; };
 		5441D0862533BECD0006C874 /* Z01a_Animation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5441D0752533BECD0006C874 /* Z01a_Animation.swift */; };
 		5441D0872533BECD0006C874 /* Z01a_Accessibility.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5441D0762533BECD0006C874 /* Z01a_Accessibility.swift */; };
@@ -15,8 +17,6 @@
 		5441D08A2533BECD0006C874 /* Z01a_JsonCodable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5441D0782533BECD0006C874 /* Z01a_JsonCodable.swift */; };
 		5441D08B2533BECD0006C874 /* Z01a_Font.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5441D0792533BECD0006C874 /* Z01a_Font.swift */; };
 		5441D08C2533BECD0006C874 /* Z01a_Font.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5441D0792533BECD0006C874 /* Z01a_Font.swift */; };
-		5441D08D2533BECD0006C874 /* SampleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5441D07A2533BECD0006C874 /* SampleView.swift */; };
-		5441D08E2533BECD0006C874 /* SampleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5441D07A2533BECD0006C874 /* SampleView.swift */; };
 		5441D08F2533BECD0006C874 /* Z01a_EmptyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5441D07C2533BECD0006C874 /* Z01a_EmptyView.swift */; };
 		5441D0902533BECD0006C874 /* Z01a_EmptyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5441D07C2533BECD0006C874 /* Z01a_EmptyView.swift */; };
 		5441D0912533BECD0006C874 /* Z01a_Divider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5441D07D2533BECD0006C874 /* Z01a_Divider.swift */; };
@@ -35,12 +35,13 @@
 		5441D09E2533BECD0006C874 /* Z01a_Spacer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5441D0832533BECD0006C874 /* Z01a_Spacer.swift */; };
 		5441D09F2533BECD0006C874 /* Z01a_Text.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5441D0842533BECD0006C874 /* Z01a_Text.swift */; };
 		5441D0A02533BECD0006C874 /* Z01a_Text.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5441D0842533BECD0006C874 /* Z01a_Text.swift */; };
-		54879CD02533BB6F00411093 /* UITestsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54879CBD2533BB6F00411093 /* UITestsApp.swift */; };
-		54879CD12533BB6F00411093 /* UITestsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54879CBD2533BB6F00411093 /* UITestsApp.swift */; };
+		54879CD02533BB6F00411093 /* UI_TestsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54879CBD2533BB6F00411093 /* UI_TestsApp.swift */; };
+		54879CD12533BB6F00411093 /* UI_TestsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54879CBD2533BB6F00411093 /* UI_TestsApp.swift */; };
 		54879CD22533BB7000411093 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54879CBE2533BB6F00411093 /* ContentView.swift */; };
 		54879CD32533BB7000411093 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54879CBE2533BB6F00411093 /* ContentView.swift */; };
 		54879CD42533BB7000411093 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 54879CBF2533BB6F00411093 /* Assets.xcassets */; };
 		54879CD52533BB7000411093 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 54879CBF2533BB6F00411093 /* Assets.xcassets */; };
+		54B4A67A2533C5BA004CEAC5 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 54B4A6792533C5BA004CEAC5 /* README.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -48,7 +49,6 @@
 		5441D0762533BECD0006C874 /* Z01a_Accessibility.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Z01a_Accessibility.swift; sourceTree = "<group>"; };
 		5441D0782533BECD0006C874 /* Z01a_JsonCodable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Z01a_JsonCodable.swift; sourceTree = "<group>"; };
 		5441D0792533BECD0006C874 /* Z01a_Font.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Z01a_Font.swift; sourceTree = "<group>"; };
-		5441D07A2533BECD0006C874 /* SampleView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SampleView.swift; sourceTree = "<group>"; };
 		5441D07C2533BECD0006C874 /* Z01a_EmptyView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Z01a_EmptyView.swift; sourceTree = "<group>"; };
 		5441D07D2533BECD0006C874 /* Z01a_Divider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Z01a_Divider.swift; sourceTree = "<group>"; };
 		5441D07E2533BECD0006C874 /* Z01a_VStack.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Z01a_VStack.swift; sourceTree = "<group>"; };
@@ -58,7 +58,7 @@
 		5441D0822533BECD0006C874 /* Z01a_ZStack.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Z01a_ZStack.swift; sourceTree = "<group>"; };
 		5441D0832533BECD0006C874 /* Z01a_Spacer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Z01a_Spacer.swift; sourceTree = "<group>"; };
 		5441D0842533BECD0006C874 /* Z01a_Text.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Z01a_Text.swift; sourceTree = "<group>"; };
-		54879CBD2533BB6F00411093 /* UITestsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UITestsApp.swift; sourceTree = "<group>"; };
+		54879CBD2533BB6F00411093 /* UI_TestsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UI_TestsApp.swift; sourceTree = "<group>"; };
 		54879CBE2533BB6F00411093 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		54879CBF2533BB6F00411093 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		54879CC42533BB6F00411093 /* UITests.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UITests.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -66,6 +66,7 @@
 		54879CCC2533BB6F00411093 /* UITests.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UITests.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		54879CCE2533BB6F00411093 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		54879CCF2533BB6F00411093 /* macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = macOS.entitlements; sourceTree = "<group>"; };
+		54B4A6792533C5BA004CEAC5 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,6 +74,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				542E8D092533C0DC008BF7B5 /* SwiftUIJson in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -80,18 +82,25 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				542E8D0B2533C0E5008BF7B5 /* SwiftUIJson in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		542E8D072533C0DC008BF7B5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		5441D0732533BECD0006C874 /* 9 - View Tests */ = {
 			isa = PBXGroup;
 			children = (
 				5441D0742533BECD0006C874 /* Z - ViewsToDo */,
 				5441D0772533BECD0006C874 /* Z - SwiftUI */,
-				5441D07A2533BECD0006C874 /* SampleView.swift */,
 				5441D07B2533BECD0006C874 /* Z - Views */,
 			);
 			path = "9 - View Tests";
@@ -134,20 +143,22 @@
 		54879CB72533BB6F00411093 = {
 			isa = PBXGroup;
 			children = (
+				54B4A6792533C5BA004CEAC5 /* README.md */,
 				54879CBC2533BB6F00411093 /* Shared */,
 				54879CC62533BB6F00411093 /* iOS */,
 				54879CCD2533BB6F00411093 /* macOS */,
 				54879CC52533BB6F00411093 /* Products */,
+				542E8D072533C0DC008BF7B5 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
 		54879CBC2533BB6F00411093 /* Shared */ = {
 			isa = PBXGroup;
 			children = (
-				5441D0732533BECD0006C874 /* 9 - View Tests */,
-				54879CBD2533BB6F00411093 /* UITestsApp.swift */,
 				54879CBE2533BB6F00411093 /* ContentView.swift */,
+				54879CBD2533BB6F00411093 /* UI_TestsApp.swift */,
 				54879CBF2533BB6F00411093 /* Assets.xcassets */,
+				5441D0732533BECD0006C874 /* 9 - View Tests */,
 			);
 			path = Shared;
 			sourceTree = "<group>";
@@ -194,6 +205,9 @@
 			dependencies = (
 			);
 			name = "UITests (iOS)";
+			packageProductDependencies = (
+				542E8D082533C0DC008BF7B5 /* SwiftUIJson */,
+			);
 			productName = "UITests (iOS)";
 			productReference = 54879CC42533BB6F00411093 /* UITests.app */;
 			productType = "com.apple.product-type.application";
@@ -211,6 +225,9 @@
 			dependencies = (
 			);
 			name = "UITests (macOS)";
+			packageProductDependencies = (
+				542E8D0A2533C0E5008BF7B5 /* SwiftUIJson */,
+			);
 			productName = "UITests (macOS)";
 			productReference = 54879CCC2533BB6F00411093 /* UITests.app */;
 			productType = "com.apple.product-type.application";
@@ -256,6 +273,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				54B4A67A2533C5BA004CEAC5 /* README.md in Resources */,
 				54879CD42533BB7000411093 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -280,14 +298,13 @@
 				5441D0972533BECD0006C874 /* Z01a_Never.swift in Sources */,
 				5441D0992533BECD0006C874 /* Z01a_TupleView.swift in Sources */,
 				5441D0892533BECD0006C874 /* Z01a_JsonCodable.swift in Sources */,
-				5441D08D2533BECD0006C874 /* SampleView.swift in Sources */,
 				54879CD22533BB7000411093 /* ContentView.swift in Sources */,
 				5441D09B2533BECD0006C874 /* Z01a_ZStack.swift in Sources */,
 				5441D08F2533BECD0006C874 /* Z01a_EmptyView.swift in Sources */,
 				5441D0852533BECD0006C874 /* Z01a_Animation.swift in Sources */,
 				5441D09F2533BECD0006C874 /* Z01a_Text.swift in Sources */,
 				5441D0872533BECD0006C874 /* Z01a_Accessibility.swift in Sources */,
-				54879CD02533BB6F00411093 /* UITestsApp.swift in Sources */,
+				54879CD02533BB6F00411093 /* UI_TestsApp.swift in Sources */,
 				5441D09D2533BECD0006C874 /* Z01a_Spacer.swift in Sources */,
 				5441D0932533BECD0006C874 /* Z01a_VStack.swift in Sources */,
 				5441D0952533BECD0006C874 /* Z01a_HStack.swift in Sources */,
@@ -303,14 +320,13 @@
 				5441D0982533BECD0006C874 /* Z01a_Never.swift in Sources */,
 				5441D09A2533BECD0006C874 /* Z01a_TupleView.swift in Sources */,
 				5441D08A2533BECD0006C874 /* Z01a_JsonCodable.swift in Sources */,
-				5441D08E2533BECD0006C874 /* SampleView.swift in Sources */,
 				54879CD32533BB7000411093 /* ContentView.swift in Sources */,
 				5441D09C2533BECD0006C874 /* Z01a_ZStack.swift in Sources */,
 				5441D0902533BECD0006C874 /* Z01a_EmptyView.swift in Sources */,
 				5441D0862533BECD0006C874 /* Z01a_Animation.swift in Sources */,
 				5441D0A02533BECD0006C874 /* Z01a_Text.swift in Sources */,
 				5441D0882533BECD0006C874 /* Z01a_Accessibility.swift in Sources */,
-				54879CD12533BB6F00411093 /* UITestsApp.swift in Sources */,
+				54879CD12533BB6F00411093 /* UI_TestsApp.swift in Sources */,
 				5441D09E2533BECD0006C874 /* Z01a_Spacer.swift in Sources */,
 				5441D0942533BECD0006C874 /* Z01a_VStack.swift in Sources */,
 				5441D0962533BECD0006C874 /* Z01a_HStack.swift in Sources */,
@@ -555,6 +571,17 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		542E8D082533C0DC008BF7B5 /* SwiftUIJson */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = SwiftUIJson;
+		};
+		542E8D0A2533C0E5008BF7B5 /* SwiftUIJson */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = SwiftUIJson;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 54879CB82533BB6F00411093 /* Project object */;
 }

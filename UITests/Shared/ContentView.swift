@@ -6,16 +6,28 @@
 //
 
 import SwiftUI
+import SwiftUIJson
+
+//struct ContentView: View {
+//    var body: some View {
+//        VStack {
+//            Text("largeTitle".var(self))
+//        }
+//        //.padding()
+//    }
+//}
 
 struct ContentView: View {
     var body: some View {
         Text("Hello, world!")
-            .padding()
+            //.padding()
     }
 }
 
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
-        ContentView()
+        JsonPreview {
+            ContentView()
+        }
     }
 }

@@ -1,0 +1,3 @@
+[submodule "SwiftUIJson"]
+	path = SwiftUIJson
+	url = git@github.com:bclnet/SwiftUIJson.git

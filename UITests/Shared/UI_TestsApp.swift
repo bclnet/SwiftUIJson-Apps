@@ -6,12 +6,15 @@
 //
 
 import SwiftUI
+import SwiftUIJson
 
 @main
-struct UITestsApp: App {
+struct UI_TestsApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            JsonPreview {
+                ContentView()
+            }
         }
     }
 }
