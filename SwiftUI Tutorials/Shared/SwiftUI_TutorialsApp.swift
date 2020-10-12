@@ -8,12 +8,15 @@
 import SwiftUI
 import SwiftUIJson
 
+typealias TestView = A01b_ContentView
+
 @main
 struct SwiftUI_TutorialsApp: App {
     var body: some Scene {
         WindowGroup {
             JsonPreview {
-                ContentView()
+                TestView()
+                //ContentView()
             }
         }
     }

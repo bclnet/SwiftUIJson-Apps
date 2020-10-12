@@ -2,15 +2,15 @@
 <Workspace
    version = "1.0">
    <FileRef
+      location = "group:README.md">
+   </FileRef>
+   <FileRef
       location = "group:SwiftUIJson">
    </FileRef>
    <FileRef
-      location = "group:/Users/smorey2/_GITHUB/bclnet/SwiftUIJson-Apps/UITests/UITests.xcodeproj">
+      location = "group:UI Tests/UI Tests.xcodeproj">
    </FileRef>
    <FileRef
       location = "group:SwiftUI Tutorials/SwiftUI Tutorials.xcodeproj">
-   </FileRef>
-   <FileRef
-      location = "group:HackingWithSwift/HackingWithSwift.xcodeproj">
    </FileRef>
 </Workspace>

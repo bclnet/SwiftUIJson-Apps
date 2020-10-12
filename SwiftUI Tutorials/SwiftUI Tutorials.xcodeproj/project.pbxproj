@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5418DF192534938C00423D0F /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 5418DF182534938C00423D0F /* README.md */; };
 		542E8D042533C0CB008BF7B5 /* SwiftUIJson in Frameworks */ = {isa = PBXBuildFile; productRef = 542E8D032533C0CB008BF7B5 /* SwiftUIJson */; };
 		542E8D062533C0D2008BF7B5 /* SwiftUIJson in Frameworks */ = {isa = PBXBuildFile; productRef = 542E8D052533C0D2008BF7B5 /* SwiftUIJson */; };
 		5441D0E22533BED80006C874 /* A04e_CircleImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5441D0A82533BED80006C874 /* A04e_CircleImage.swift */; };
@@ -141,10 +142,10 @@
 		54879CFE2533BBB800411093 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54879CE92533BBB700411093 /* ContentView.swift */; };
 		54879CFF2533BBB800411093 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 54879CEA2533BBB800411093 /* Assets.xcassets */; };
 		54879D002533BBB800411093 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 54879CEA2533BBB800411093 /* Assets.xcassets */; };
-		54B4A6802533C5CD004CEAC5 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 54B4A67F2533C5CD004CEAC5 /* README.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		5418DF182534938C00423D0F /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		5441D0A82533BED80006C874 /* A04e_CircleImage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = A04e_CircleImage.swift; sourceTree = "<group>"; };
 		5441D0A92533BED80006C874 /* A03d_ContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = A03d_ContentView.swift; sourceTree = "<group>"; };
 		5441D0AA2533BED80006C874 /* A06f_ContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = A06f_ContentView.swift; sourceTree = "<group>"; };
@@ -216,7 +217,6 @@
 		54879CF72533BBB800411093 /* SwiftUI Tutorials.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SwiftUI Tutorials.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		54879CF92533BBB800411093 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		54879CFA2533BBB800411093 /* macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = macOS.entitlements; sourceTree = "<group>"; };
-		54B4A67F2533C5CD004CEAC5 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../UITests/README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -411,7 +411,7 @@
 		54879CE22533BBB700411093 = {
 			isa = PBXGroup;
 			children = (
-				54B4A67F2533C5CD004CEAC5 /* README.md */,
+				5418DF182534938C00423D0F /* README.md */,
 				54879CE72533BBB700411093 /* Shared */,
 				54879CF12533BBB800411093 /* iOS */,
 				54879CF82533BBB800411093 /* macOS */,
@@ -557,7 +557,7 @@
 				5441D1622533BEF60006C874 /* twinlake.jpg in Resources */,
 				5441D16A2533BEF60006C874 /* yukon_charleyrivers.jpg in Resources */,
 				5441D1602533BEF60006C874 /* hiddenlake.jpg in Resources */,
-				54B4A6802533C5CD004CEAC5 /* README.md in Resources */,
+				5418DF192534938C00423D0F /* README.md in Resources */,
 				54879CFF2533BBB800411093 /* Assets.xcassets in Resources */,
 				5441D1662533BEF60006C874 /* landmarkData.json in Resources */,
 			);
