@@ -1,5 +1,5 @@
 //
-//  ContentView.swift
+//  TestView.swift
 //  Shared
 //
 //  Created by Sky Morey on 10/12/20.
@@ -8,7 +8,7 @@
 import SwiftUI
 import SwiftUIJson
 
-//struct ContentView: View {
+//struct TestView: View {
 //    var body: some View {
 //        VStack {
 //            Text("largeTitle".var(self))
@@ -17,17 +17,17 @@ import SwiftUIJson
 //    }
 //}
 
-struct ContentView: View {
+struct TestView: View {
     var body: some View {
         Text("Hello, world!")
-            .padding()
+            //.padding()
     }
 }
 
-struct ContentView_Previews: PreviewProvider {
+struct TestView_Previews: PreviewProvider {
     static var previews: some View {
         JsonPreview {
-            ContentView()
+            TestView()
         }
     }
 }
