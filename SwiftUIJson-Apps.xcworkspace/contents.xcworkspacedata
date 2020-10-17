@@ -11,6 +11,9 @@
       location = "group:UI Tests/UI Tests.xcodeproj">
    </FileRef>
    <FileRef
+      location = "group:UI Tests 10.15/UI Tests 10.15.xcodeproj">
+   </FileRef>
+   <FileRef
       location = "group:SwiftUI Tutorials/SwiftUI Tutorials.xcodeproj">
    </FileRef>
 </Workspace>
