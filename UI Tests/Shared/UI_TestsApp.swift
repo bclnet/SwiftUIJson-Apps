@@ -11,12 +11,13 @@ import SwiftUIJson
 //typealias ContentView = TestView
 
 // MARK: - Modifiers
-typealias ContentView = Z01a_PaddingLayout
+//typealias ContentView = Z01a_PaddingLayout
 
 // MARK: - SwiftUI
 //typealias ContentView = Z01a_AnyView
 //typealias ContentView = Z01a_ConditionalContent
-//typealias ContentView = Z01a_Font
+//typealias ContentView = Z01a_DynaType
+typealias ContentView = Z01a_Font
 //typealias ContentView = Z01a_Json
 
 // MARK: - Views

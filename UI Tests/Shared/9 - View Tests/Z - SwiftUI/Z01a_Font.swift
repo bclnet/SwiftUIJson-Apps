@@ -5,6 +5,7 @@ struct Z01a_Font: View {
     let ctFont = CTFontCreateUIFontForLanguage(.system, 12, nil)!
     var body: some View {
         VStack {
+            Text("Font")
             // MARK: - First
             VStack {
                 Text("custom:size").font(.custom("Georgia", size: 24))

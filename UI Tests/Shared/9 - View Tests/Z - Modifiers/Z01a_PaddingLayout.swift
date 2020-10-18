@@ -7,10 +7,10 @@ struct Z01a_PaddingLayout: View {
             Text("PaddingLayout")
             Text("default")
                 .padding()
-//            Text("edges:length")
-//                .padding(.bottom, 5)
-//            Text("insets??")
-//                .padding(EdgeInsets().bottom)
+            Text("edges:length")
+                .padding(.bottom, 5)
+            Text("insets??")
+                .padding(EdgeInsets().bottom)
         }
     }
 }

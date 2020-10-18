@@ -6,10 +6,20 @@ struct Z01a_ConditionalContent: View {
     var body: some View {
         VStack {
             Text("ConditionalContent")
-            Text("switch")
+            Text("switch: 1")
             switch value {
-            case 1: Text("One")
-            default: Text("Default")
+            default: Text("default")
+            }
+            Text("switch: 2")
+            switch value {
+            case 0: Text("zero")
+            default: Text("default")
+            }
+            Text("switch: 3")
+            switch value {
+            case 0: Text("zero")
+            case 1: Text("one")
+            default: Text("default")
             }
         }
     }

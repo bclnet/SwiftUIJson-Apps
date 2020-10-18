@@ -20,7 +20,7 @@ import SwiftUIJson
 struct TestView: View {
     var body: some View {
         Text("Hello, world!")
-            //.padding()
+            .padding()
     }
 }
 
