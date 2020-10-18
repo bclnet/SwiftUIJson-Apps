@@ -6,8 +6,11 @@ struct Z01a_TupleView: View {
         VStack {
             Text("TupleView")
             HStack {
-                Text("Joshua Tree National Park")
-                Text("California")
+                Text("single")
+            }
+            HStack {
+                Text("one")
+                Text("two")
             }
         }
     }

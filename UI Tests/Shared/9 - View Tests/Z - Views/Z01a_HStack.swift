@@ -6,8 +6,10 @@ struct Z01a_HStack: View {
         VStack {
             Text("HStack")
             HStack {
-                Text("Joshua Tree National Park")
-                Text("California")
+                Text("default")
+            }
+            HStack(alignment: .top, spacing: 5) {
+                Text("alignment:spacing")
             }
         }
     }

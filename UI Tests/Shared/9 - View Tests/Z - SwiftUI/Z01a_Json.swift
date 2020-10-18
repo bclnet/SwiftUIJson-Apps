@@ -1,19 +1,19 @@
 import SwiftUI
 import SwiftUIJson
 
-struct Z01a_Never: View {
+struct Z01a_Json: View {
     var body: some View {
         VStack {
-            Text("Never")
-            //Never()
+            Text("Json")
+            Text("italic".var(self))
         }
     }
 }
 
-struct Z01a_Never_Previews: PreviewProvider {
+struct Z01a_Json_Previews: PreviewProvider {
     static var previews: some View {
         JsonPreview {
-            Z01a_Never()
+            Z01a_Json()
         }
     }
 }

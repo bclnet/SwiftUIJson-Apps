@@ -6,8 +6,10 @@ struct Z01a_VStack: View {
         VStack {
             Text("VStack")
             VStack {
-                Text("Joshua Tree National Park")
-                Text("California")
+                Text("default")
+            }
+            VStack(alignment: .leading, spacing: 5) {
+                Text("alignment:spacing")
             }
         }
     }

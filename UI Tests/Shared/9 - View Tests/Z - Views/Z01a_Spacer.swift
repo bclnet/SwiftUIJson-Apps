@@ -6,10 +6,10 @@ struct Z01a_Spacer: View {
         VStack {
             Text("Spacer")
             VStack {
-                Text("Turtle Rock")
-                Spacer(minLength: 5)
-                Text("Turtle Rock")
+                Text("default")
                 Spacer()
+                Text("minLength")
+                Spacer(minLength: 5)
             }
         }
     }

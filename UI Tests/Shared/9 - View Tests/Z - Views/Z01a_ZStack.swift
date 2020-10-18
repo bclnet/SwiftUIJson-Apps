@@ -6,8 +6,10 @@ struct Z01a_ZStack: View {
         VStack {
             Text("ZStack")
             ZStack {
-                Text("Joshua Tree National Park")
-                Text("California")
+                Text("default")
+            }
+            ZStack(alignment: .top) {
+                Text("alignment")
             }
         }
     }

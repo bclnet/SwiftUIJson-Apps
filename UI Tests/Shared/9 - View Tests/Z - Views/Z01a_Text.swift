@@ -6,8 +6,7 @@ struct Z01a_Text: View {
         VStack {
             Text("Text")
             HStack {
-                Text("Joshua Tree National Park")
-                Text("California")
+                Text("incomplete")
             }
         }
     }
