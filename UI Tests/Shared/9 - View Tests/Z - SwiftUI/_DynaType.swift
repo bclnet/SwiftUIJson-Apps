@@ -1,7 +1,7 @@
 import SwiftUI
 import SwiftUIJson
 
-struct Z01a_DynaType: View {
+struct _DynaType: View {
     var body: some View {
         VStack {
             Text("DynaType")
@@ -12,10 +12,10 @@ struct Z01a_DynaType: View {
     }
 }
 
-struct Z01a_DynaType_Previews: PreviewProvider {
+struct _DynaType_Previews: PreviewProvider {
     static var previews: some View {
         JsonPreview {
-            Z01a_DynaType()
+            _DynaType()
         }
     }
 }
