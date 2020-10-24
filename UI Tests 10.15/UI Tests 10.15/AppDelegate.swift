@@ -10,8 +10,34 @@ import SwiftUI
 import SwiftUIJson
 
 //typealias ContentView = TestView
-typealias ContentView = Z01a_Color
+
+// MARK: - Modifiers
+//typealias ContentView = Z01a_PaddingLayout
+
+// MARK: - SwiftUI
+//typealias ContentView = _DynaType
+//typealias ContentView = Z01a_Color
+//typealias ContentView = Z01a_Edge //: (Incomplete)
 //typealias ContentView = Z01a_Font
+//typealias ContentView = Z01a_Json //: (Incomplete)
+
+// MARK: - Views:System
+//typealias ContentView = Z01a_AnyView
+//typealias ContentView = Z01a_ConditionalContent
+//typealias ContentView = Z01a_Tree //: (Incomplete)
+//typealias ContentView = Z01a_TupleView
+
+// MARK: - Views
+//typealias ContentView = Z01a_Divider
+//typealias ContentView = Z01a_EmptyView
+//typealias ContentView = Z01a_HStack
+typealias ContentView = Z01a_Image
+//typealias ContentView = Z01a_LazyHStack
+//typealias ContentView = Z01a_LazyVStack
+//typealias ContentView = Z01a_Spacer
+//typealias ContentView = Z01a_Text //: (Incomplete)
+//typealias ContentView = Z01a_VStack
+//typealias ContentView = Z01a_ZStack
 
 @NSApplicationMain
 class AppDelegate: NSObject, NSApplicationDelegate {
@@ -39,7 +65,4 @@ class AppDelegate: NSObject, NSApplicationDelegate {
     func applicationWillTerminate(_ aNotification: Notification) {
         // Insert code here to tear down your application
     }
-
-
 }
-

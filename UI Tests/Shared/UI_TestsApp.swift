@@ -15,7 +15,7 @@ import SwiftUIJson
 
 // MARK: - SwiftUI
 //typealias ContentView = _DynaType
-typealias ContentView = Z01a_Color //: (Incomplete)
+//typealias ContentView = Z01a_Color
 //typealias ContentView = Z01a_Edge //: (Incomplete)
 //typealias ContentView = Z01a_Font
 //typealias ContentView = Z01a_Json //: (Incomplete)
@@ -30,6 +30,7 @@ typealias ContentView = Z01a_Color //: (Incomplete)
 //typealias ContentView = Z01a_Divider
 //typealias ContentView = Z01a_EmptyView
 //typealias ContentView = Z01a_HStack
+typealias ContentView = Z01a_Image
 //typealias ContentView = Z01a_LazyHStack
 //typealias ContentView = Z01a_LazyVStack
 //typealias ContentView = Z01a_Spacer

@@ -44,6 +44,8 @@
 		54889AF2253BF20200E15073 /* Z01a_ConditionalContent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54889AF0253BF20200E15073 /* Z01a_ConditionalContent.swift */; };
 		5493C1602544696000AD94F5 /* Z01a_Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5493C15F2544696000AD94F5 /* Z01a_Color.swift */; };
 		5493C1612544696000AD94F5 /* Z01a_Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5493C15F2544696000AD94F5 /* Z01a_Color.swift */; };
+		5493C18A2544AF4E00AD94F5 /* Z01a_Image.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5493C1892544AF4400AD94F5 /* Z01a_Image.swift */; };
+		5493C18B2544AF4E00AD94F5 /* Z01a_Image.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5493C1892544AF4400AD94F5 /* Z01a_Image.swift */; };
 		549D7C4F253B625F00E70B72 /* UI_TestsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 547E97F5253491D700E48BD2 /* UI_TestsApp.swift */; };
 		54D975C3253CD2520089FEDC /* Z01a_AnyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54D975C2253CD2520089FEDC /* Z01a_AnyView.swift */; };
 		54D975C4253CD2520089FEDC /* Z01a_AnyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54D975C2253CD2520089FEDC /* Z01a_AnyView.swift */; };
@@ -81,6 +83,7 @@
 		54889AF0253BF20200E15073 /* Z01a_ConditionalContent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Z01a_ConditionalContent.swift; sourceTree = "<group>"; };
 		54889AF8253BF29C00E15073 /* Z01a_PaddingLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Z01a_PaddingLayout.swift; sourceTree = "<group>"; };
 		5493C15F2544696000AD94F5 /* Z01a_Color.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Z01a_Color.swift; sourceTree = "<group>"; };
+		5493C1892544AF4400AD94F5 /* Z01a_Image.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Z01a_Image.swift; sourceTree = "<group>"; };
 		54D975C2253CD2520089FEDC /* Z01a_AnyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Z01a_AnyView.swift; sourceTree = "<group>"; };
 		54E544AF253BFAC4005A8EB1 /* Z01a_LazyHStack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Z01a_LazyHStack.swift; sourceTree = "<group>"; };
 		54E544B6253BFACF005A8EB1 /* Z01a_LazyVStack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Z01a_LazyVStack.swift; sourceTree = "<group>"; };
@@ -182,6 +185,7 @@
 				547E98202534920400E48BD2 /* Z01a_Divider.swift */,
 				547E981F2534920400E48BD2 /* Z01a_EmptyView.swift */,
 				547E98222534920400E48BD2 /* Z01a_HStack.swift */,
+				5493C1892544AF4400AD94F5 /* Z01a_Image.swift */,
 				54E544AF253BFAC4005A8EB1 /* Z01a_LazyHStack.swift */,
 				54E544B6253BFACF005A8EB1 /* Z01a_LazyVStack.swift */,
 				547E98262534920400E48BD2 /* Z01a_Spacer.swift */,
@@ -200,7 +204,8 @@
 				547E98282534920400E48BD2 /* Z - Views */,
 				547E981B2534920400E48BD2 /* Z - ViewsToDo */,
 			);
-			path = "9 - View Tests";
+			name = "9 - View Tests";
+			path = "../../UI Tests 10.15/UI Tests 10.15/9 - View Tests";
 			sourceTree = "<group>";
 		};
 		547E982E2534922500E48BD2 /* Frameworks */ = {
@@ -348,6 +353,7 @@
 				5418DF28253494F500423D0F /* Z01a_VStack.swift in Sources */,
 				54889AEC253BB39500E15073 /* _DynaType.swift in Sources */,
 				54E544B7253BFACF005A8EB1 /* Z01a_LazyVStack.swift in Sources */,
+				5493C18B2544AF4E00AD94F5 /* Z01a_Image.swift in Sources */,
 				5418DF31253494FA00423D0F /* Z01a_TupleView.swift in Sources */,
 				5418DF462534950900423D0F /* Z01a_Animation.swift in Sources */,
 				5418DF33253494FA00423D0F /* Z01a_HStack.swift in Sources */,
@@ -376,6 +382,7 @@
 				5418DF2B253494F600423D0F /* Z01a_VStack.swift in Sources */,
 				54889AE9253BB39400E15073 /* _DynaType.swift in Sources */,
 				54E544B8253BFACF005A8EB1 /* Z01a_LazyVStack.swift in Sources */,
+				5493C18A2544AF4E00AD94F5 /* Z01a_Image.swift in Sources */,
 				5418DF39253494FA00423D0F /* Z01a_TupleView.swift in Sources */,
 				5418DF4A2534950A00423D0F /* Z01a_Animation.swift in Sources */,
 				5418DF3B253494FA00423D0F /* Z01a_HStack.swift in Sources */,
