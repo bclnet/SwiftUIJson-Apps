@@ -132,7 +132,8 @@
 				5493C1802544AE0A00AD94F5 /* Z - Views */,
 				5493C1832544AE0A00AD94F5 /* Z - ViewsToDo */,
 			);
-			path = "9 - View Tests";
+			name = "9 - View Tests";
+			path = "../../UI Tests/Shared/9 - View Tests";
 			sourceTree = "<group>";
 		};
 		54F792AE253B64EA00F8A23D = {
