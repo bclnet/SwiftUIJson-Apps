@@ -14,8 +14,8 @@ import SwiftUIJson
 //typealias ContentView = Z01a_PaddingLayout
 
 // MARK: - SwiftUI
-typealias ContentView = _DynaType
-//typealias ContentView = Z01a_Color //: (Incomplete)
+//typealias ContentView = _DynaType
+typealias ContentView = Z01a_Color //: (Incomplete)
 //typealias ContentView = Z01a_Edge //: (Incomplete)
 //typealias ContentView = Z01a_Font
 //typealias ContentView = Z01a_Json //: (Incomplete)

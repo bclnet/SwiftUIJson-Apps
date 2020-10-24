@@ -10,6 +10,7 @@
 		54889AD5253B651E00E15073 /* SwiftUIJson in Frameworks */ = {isa = PBXBuildFile; productRef = 54889AD4253B651E00E15073 /* SwiftUIJson */; };
 		54889ADA253B681F00E15073 /* Z01a_Font.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54889AD9253B681F00E15073 /* Z01a_Font.swift */; };
 		54889ADD253B684800E15073 /* TestView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54889ADC253B684800E15073 /* TestView.swift */; };
+		5493C16925449FAA00AD94F5 /* Z01a_Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5493C16825449FAA00AD94F5 /* Z01a_Color.swift */; };
 		54F792BB253B64EA00F8A23D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54F792BA253B64EA00F8A23D /* AppDelegate.swift */; };
 		54F792BD253B64EA00F8A23D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54F792BC253B64EA00F8A23D /* ContentView.swift */; };
 		54F792BF253B64EB00F8A23D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 54F792BE253B64EB00F8A23D /* Assets.xcassets */; };
@@ -20,6 +21,7 @@
 /* Begin PBXFileReference section */
 		54889AD9253B681F00E15073 /* Z01a_Font.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Z01a_Font.swift; sourceTree = "<group>"; };
 		54889ADC253B684800E15073 /* TestView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestView.swift; sourceTree = "<group>"; };
+		5493C16825449FAA00AD94F5 /* Z01a_Color.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Z01a_Color.swift; sourceTree = "<group>"; };
 		54F792B7253B64EA00F8A23D /* UI Tests 10.15.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "UI Tests 10.15.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		54F792BA253B64EA00F8A23D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		54F792BC253B64EA00F8A23D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -60,6 +62,7 @@
 		54889AD8253B681300E15073 /* Z - SwiftUI */ = {
 			isa = PBXGroup;
 			children = (
+				5493C16825449FAA00AD94F5 /* Z01a_Color.swift */,
 				54889AD9253B681F00E15073 /* Z01a_Font.swift */,
 			);
 			path = "Z - SwiftUI";
@@ -179,6 +182,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5493C16925449FAA00AD94F5 /* Z01a_Color.swift in Sources */,
 				54889ADD253B684800E15073 /* TestView.swift in Sources */,
 				54889ADA253B681F00E15073 /* Z01a_Font.swift in Sources */,
 				54F792BD253B64EA00F8A23D /* ContentView.swift in Sources */,

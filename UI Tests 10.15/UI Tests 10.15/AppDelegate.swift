@@ -10,7 +10,8 @@ import SwiftUI
 import SwiftUIJson
 
 //typealias ContentView = TestView
-typealias ContentView = Z01a_Font
+typealias ContentView = Z01a_Color
+//typealias ContentView = Z01a_Font
 
 @NSApplicationMain
 class AppDelegate: NSObject, NSApplicationDelegate {
