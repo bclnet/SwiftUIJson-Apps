@@ -1,6 +1,7 @@
 import SwiftUI
 import SwiftUIJson
 
+@available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
 struct Z01a_LazyVStack: View {
     var body: some View {
         VStack {
@@ -18,6 +19,7 @@ struct Z01a_LazyVStack: View {
     }
 }
 
+@available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
 struct Z01a_LazyVStack_Previews: PreviewProvider {
     static var previews: some View {
         JsonPreview {

@@ -3,7 +3,7 @@ import SwiftUIJson
 
 struct Z01a_Image: View {
     let uxImage = UXImage(named: "image")!
-    let cgImage = UXImage(named: "image")!.cgImage!
+    let cgImage = UXImage(named: "image")!.cgImage_!
     var body: some View {
         VStack {
             Text("Image")
@@ -14,16 +14,18 @@ struct Z01a_Image: View {
                 if #available(macOS 11.0, *) {
                     HStack { Text("systemName"); Image(systemName: "trash") }
                 }
-                HStack { Text("renderingMode"); Image(systemName: "trash").renderingMode(.original) }
+                HStack { Text("renderingMode"); Image("image").renderingMode(.original) }
             }
             VStack {
                 HStack { Text("interpolation(_)");Image("image").interpolation(.medium) }
                 HStack { Text("antialiased(_)");Image("image").antialiased(true) }
                 HStack { Text("_:scale:orientation:label"); Image(cgImage, scale: 1, orientation: .up, label: Text("label")) }
                 HStack { Text("decorative:scale:orientation");Image(decorative: cgImage, scale: 1, orientation: .up) }
-                if #available(iOS 13.0, tvOS 13.0, watchOS 6.0, *) {
-                    HStack { Text("uiImage"); Image(uiImage: UIImage()) }
-                }
+                #if os(macOS)
+                HStack { Text("nsImage"); Image(nsImage: uxImage) }
+                #else
+                HStack { Text("uiImage"); Image(uiImage: uxImage) }
+                #endif
             }
             VStack {
                 HStack { Text("resizable(capInsets:resizingMode)"); Image("image").resizable(capInsets: EdgeInsets(), resizingMode: .stretch) }
