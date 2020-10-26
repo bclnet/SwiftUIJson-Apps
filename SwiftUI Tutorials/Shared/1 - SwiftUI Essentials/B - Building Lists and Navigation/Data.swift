@@ -1,6 +1,11 @@
-import UIKit
 import SwiftUI
 import CoreLocation
+
+#if os(macOS)
+import AppKit
+#else
+import UIKit
+#endif
 
 let landmarkData: [Landmark] = load("landmarkData.json")
 

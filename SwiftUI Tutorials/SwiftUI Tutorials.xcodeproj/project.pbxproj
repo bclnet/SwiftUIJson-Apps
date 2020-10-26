@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		5418DF192534938C00423D0F /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 5418DF182534938C00423D0F /* README.md */; };
 		542E8D042533C0CB008BF7B5 /* SwiftUIJson in Frameworks */ = {isa = PBXBuildFile; productRef = 542E8D032533C0CB008BF7B5 /* SwiftUIJson */; };
 		542E8D062533C0D2008BF7B5 /* SwiftUIJson in Frameworks */ = {isa = PBXBuildFile; productRef = 542E8D052533C0D2008BF7B5 /* SwiftUIJson */; };
 		5441D0E22533BED80006C874 /* A04e_CircleImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5441D0A82533BED80006C874 /* A04e_CircleImage.swift */; };
@@ -138,8 +137,8 @@
 		5441D1712533BEF60006C874 /* rainbowlake.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5441D1572533BEF60006C874 /* rainbowlake.jpg */; };
 		54879CFB2533BBB800411093 /* SwiftUI_TutorialsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54879CE82533BBB700411093 /* SwiftUI_TutorialsApp.swift */; };
 		54879CFC2533BBB800411093 /* SwiftUI_TutorialsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54879CE82533BBB700411093 /* SwiftUI_TutorialsApp.swift */; };
-		54879CFD2533BBB800411093 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54879CE92533BBB700411093 /* ContentView.swift */; };
-		54879CFE2533BBB800411093 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54879CE92533BBB700411093 /* ContentView.swift */; };
+		54879CFD2533BBB800411093 /* TestView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54879CE92533BBB700411093 /* TestView.swift */; };
+		54879CFE2533BBB800411093 /* TestView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54879CE92533BBB700411093 /* TestView.swift */; };
 		54879CFF2533BBB800411093 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 54879CEA2533BBB800411093 /* Assets.xcassets */; };
 		54879D002533BBB800411093 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 54879CEA2533BBB800411093 /* Assets.xcassets */; };
 /* End PBXBuildFile section */
@@ -210,13 +209,25 @@
 		5441D1562533BEF60006C874 /* chilkoottrail.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = chilkoottrail.jpg; sourceTree = "<group>"; };
 		5441D1572533BEF60006C874 /* rainbowlake.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = rainbowlake.jpg; sourceTree = "<group>"; };
 		54879CE82533BBB700411093 /* SwiftUI_TutorialsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUI_TutorialsApp.swift; sourceTree = "<group>"; };
-		54879CE92533BBB700411093 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		54879CE92533BBB700411093 /* TestView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestView.swift; sourceTree = "<group>"; };
 		54879CEA2533BBB800411093 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		54879CEF2533BBB800411093 /* SwiftUI Tutorials.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SwiftUI Tutorials.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		54879CF22533BBB800411093 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		54879CF72533BBB800411093 /* SwiftUI Tutorials.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SwiftUI Tutorials.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		54879CF92533BBB800411093 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		54879CFA2533BBB800411093 /* macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = macOS.entitlements; sourceTree = "<group>"; };
+		54894B032545065800D75CB1 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		54894B0B2545067300D75CB1 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		54894B102545069100D75CB1 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		54894B15254506B900D75CB1 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		54894B1A254506CD00D75CB1 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		54894B1F254506E700D75CB1 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		54894B242545078600D75CB1 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		54894B292545078D00D75CB1 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		54894B2E2545F89900D75CB1 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		54894B322545F8A200D75CB1 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		54894B3D2545F8FD00D75CB1 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		54894B412545F97B00D75CB1 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -251,6 +262,7 @@
 			children = (
 				5441D0A42533BED80006C874 /* D - Drawing Paths and Shapes */,
 				5441D0A52533BED80006C874 /* E - Animating Views and Transitions */,
+				54894B15254506B900D75CB1 /* README.md */,
 			);
 			path = "2 - Drawing and Animation";
 			sourceTree = "<group>";
@@ -258,6 +270,7 @@
 		5441D0A42533BED80006C874 /* D - Drawing Paths and Shapes */ = {
 			isa = PBXGroup;
 			children = (
+				54894B242545078600D75CB1 /* README.md */,
 			);
 			path = "D - Drawing Paths and Shapes";
 			sourceTree = "<group>";
@@ -265,6 +278,7 @@
 		5441D0A52533BED80006C874 /* E - Animating Views and Transitions */ = {
 			isa = PBXGroup;
 			children = (
+				54894B292545078D00D75CB1 /* README.md */,
 			);
 			path = "E - Animating Views and Transitions";
 			sourceTree = "<group>";
@@ -275,6 +289,7 @@
 				5441D0A72533BED80006C874 /* A - Creating and Combining Views */,
 				5441D0BF2533BED80006C874 /* B - Building Lists and Navigation */,
 				5441D0DC2533BED80006C874 /* C - Handling User Input */,
+				54894B412545F97B00D75CB1 /* README.md */,
 			);
 			path = "1 - SwiftUI Essentials";
 			sourceTree = "<group>";
@@ -305,6 +320,7 @@
 				5441D0B82533BED80006C874 /* A06e_ContentView.swift */,
 				5441D0AA2533BED80006C874 /* A06f_ContentView.swift */,
 				5441D0B02533BED80006C874 /* A06g_ContentView.swift */,
+				54894B032545065800D75CB1 /* README.md */,
 			);
 			path = "A - Creating and Combining Views";
 			sourceTree = "<group>";
@@ -339,6 +355,7 @@
 				5441D0C72533BED80006C874 /* Data.swift */,
 				5441D0DB2533BED80006C874 /* Landmark.swift */,
 				5441D0D32533BED80006C874 /* LandmarkDetail.swift */,
+				54894B0B2545067300D75CB1 /* README.md */,
 			);
 			path = "B - Building Lists and Navigation";
 			sourceTree = "<group>";
@@ -346,6 +363,7 @@
 		5441D0DC2533BED80006C874 /* C - Handling User Input */ = {
 			isa = PBXGroup;
 			children = (
+				54894B102545069100D75CB1 /* README.md */,
 			);
 			path = "C - Handling User Input";
 			sourceTree = "<group>";
@@ -354,6 +372,7 @@
 			isa = PBXGroup;
 			children = (
 				5441D0DE2533BED80006C874 /* H - Interfacing with UIKit */,
+				54894B1F254506E700D75CB1 /* README.md */,
 			);
 			path = "4 - Framework Integration";
 			sourceTree = "<group>";
@@ -361,6 +380,7 @@
 		5441D0DE2533BED80006C874 /* H - Interfacing with UIKit */ = {
 			isa = PBXGroup;
 			children = (
+				54894B3D2545F8FD00D75CB1 /* README.md */,
 			);
 			path = "H - Interfacing with UIKit";
 			sourceTree = "<group>";
@@ -368,8 +388,9 @@
 		5441D0DF2533BED80006C874 /* 3 - App Design and Layout */ = {
 			isa = PBXGroup;
 			children = (
-				5441D0E02533BED80006C874 /* G - Working with UI Controls */,
 				5441D0E12533BED80006C874 /* F - Composing Complex Interfaces */,
+				5441D0E02533BED80006C874 /* G - Working with UI Controls */,
+				54894B1A254506CD00D75CB1 /* README.md */,
 			);
 			path = "3 - App Design and Layout";
 			sourceTree = "<group>";
@@ -377,6 +398,7 @@
 		5441D0E02533BED80006C874 /* G - Working with UI Controls */ = {
 			isa = PBXGroup;
 			children = (
+				54894B2E2545F89900D75CB1 /* README.md */,
 			);
 			path = "G - Working with UI Controls";
 			sourceTree = "<group>";
@@ -384,6 +406,7 @@
 		5441D0E12533BED80006C874 /* F - Composing Complex Interfaces */ = {
 			isa = PBXGroup;
 			children = (
+				54894B322545F8A200D75CB1 /* README.md */,
 			);
 			path = "F - Composing Complex Interfaces";
 			sourceTree = "<group>";
@@ -423,14 +446,14 @@
 		54879CE72533BBB700411093 /* Shared */ = {
 			isa = PBXGroup;
 			children = (
-				54879CE92533BBB700411093 /* ContentView.swift */,
-				54879CE82533BBB700411093 /* SwiftUI_TutorialsApp.swift */,
-				54879CEA2533BBB800411093 /* Assets.xcassets */,
 				5441D0A62533BED80006C874 /* 1 - SwiftUI Essentials */,
 				5441D0A32533BED80006C874 /* 2 - Drawing and Animation */,
 				5441D0DF2533BED80006C874 /* 3 - App Design and Layout */,
 				5441D0DD2533BED80006C874 /* 4 - Framework Integration */,
+				54879CEA2533BBB800411093 /* Assets.xcassets */,
+				54879CE92533BBB700411093 /* TestView.swift */,
 				5441D14A2533BEF60006C874 /* Resources */,
+				54879CE82533BBB700411093 /* SwiftUI_TutorialsApp.swift */,
 			);
 			path = Shared;
 			sourceTree = "<group>";
@@ -557,7 +580,6 @@
 				5441D1622533BEF60006C874 /* twinlake.jpg in Resources */,
 				5441D16A2533BEF60006C874 /* yukon_charleyrivers.jpg in Resources */,
 				5441D1602533BEF60006C874 /* hiddenlake.jpg in Resources */,
-				5418DF192534938C00423D0F /* README.md in Resources */,
 				54879CFF2533BBB800411093 /* Assets.xcassets in Resources */,
 				5441D1662533BEF60006C874 /* landmarkData.json in Resources */,
 			);
@@ -594,7 +616,7 @@
 				5441D1422533BED80006C874 /* B03a_LandmarkRow.swift in Sources */,
 				5441D1322533BED80006C874 /* B07f_LandmarkList.swift in Sources */,
 				5441D12A2533BED80006C874 /* B07e_LandmarkDetail.swift in Sources */,
-				54879CFD2533BBB800411093 /* ContentView.swift in Sources */,
+				54879CFD2533BBB800411093 /* TestView.swift in Sources */,
 				5441D0E62533BED80006C874 /* A06f_ContentView.swift in Sources */,
 				5441D1062533BED80006C874 /* A03b_ContentView.swift in Sources */,
 				5441D13A2533BED80006C874 /* B08c_LandmarkList.swift in Sources */,
@@ -653,7 +675,7 @@
 				5441D1432533BED80006C874 /* B03a_LandmarkRow.swift in Sources */,
 				5441D1332533BED80006C874 /* B07f_LandmarkList.swift in Sources */,
 				5441D12B2533BED80006C874 /* B07e_LandmarkDetail.swift in Sources */,
-				54879CFE2533BBB800411093 /* ContentView.swift in Sources */,
+				54879CFE2533BBB800411093 /* TestView.swift in Sources */,
 				5441D0E72533BED80006C874 /* A06f_ContentView.swift in Sources */,
 				5441D1072533BED80006C874 /* A03b_ContentView.swift in Sources */,
 				5441D13B2533BED80006C874 /* B08c_LandmarkList.swift in Sources */,
