@@ -13,28 +13,29 @@ struct Z01a_View17000: View {
                 // MARK: - Style:17188
                 Text("datePickerStyle(_:)").datePickerStyle(DefaultDatePickerStyle())
 
-                // MARK: - Sheet:17200
-                Text("sheet(item:onDismiss:content:)").sheet(item: $item, onDismiss: nil) { item in Text("content") }
-                Text("sheet(isPresented:onDismiss:content:)").sheet(isPresented: $isPresented, onDismiss: nil) { Text("content") }
-
-                // MARK: - FullScreenCover:17227
-                if #available(iOS 14.0, tvOS 14.0, watchOS 7.0, *) {
-                    Text("fullScreenCover(item:onDismiss:content:)").fullScreenCover(item: $item, onDismiss: nil) { item in Text("Content") }
-                    Text("fullScreenCover(isPresented:onDismiss:content:)").fullScreenCover(isPresented: $isPresented, onDismiss: nil) { Text("content") }
-                }
-
-                // MARK: - Gesture:17256
-                Text("onLongPressGesture(minimumDuration:maximumDistance:pressing:perform:)").onLongPressGesture(minimumDuration: 0.5, maximumDistance: 10, pressing: nil) { print("perform") }
-
-                // MARK: - Autocorrection:17266
-                Text("disableAutocorrection(_:)").disableAutocorrection(true)
-
-                // MARK: - Style:17292
-                Text("indexViewStyle(_:)").indexViewStyle(PageIndexViewStyle())
-
-                // MARK: - ItemProvider:17304
-                Text("itemProvider(_:)").itemProvider(nil)
+//                // MARK: - Sheet:17200
+//                Text("sheet(item:onDismiss:content:)").sheet(item: $item, onDismiss: nil) { item in Text("content") }
+//                Text("sheet(isPresented:onDismiss:content:)").sheet(isPresented: $isPresented, onDismiss: nil) { Text("content") }
+//
+//                // MARK: - FullScreenCover:17227
+//                if #available(iOS 14.0, tvOS 14.0, watchOS 7.0, *) {
+//                    Text("fullScreenCover(item:onDismiss:content:)").fullScreenCover(item: $item, onDismiss: nil) { item in Text("Content") }
+//                    Text("fullScreenCover(isPresented:onDismiss:content:)").fullScreenCover(isPresented: $isPresented, onDismiss: nil) { Text("content") }
+//                }
+//
+//                // MARK: - Gesture:17256
+//                Text("onLongPressGesture(minimumDuration:maximumDistance:pressing:perform:)").onLongPressGesture(minimumDuration: 0.5, maximumDistance: 10, pressing: nil) { print("perform") }
+//
+//                // MARK: - Autocorrection:17266
+//                Text("disableAutocorrection(_:)").disableAutocorrection(true)
+//
+//                // MARK: - Style:17292
+//                Text("indexViewStyle(_:)").indexViewStyle(PageIndexViewStyle())
+//
+//                // MARK: - ItemProvider:17304
+//                Text("itemProvider(_:)").itemProvider(nil)
             }
+            /*
             VStack {
                 // MARK: - DeleteDisabled:17313
                 Text("deleteDisabled(_:)").deleteDisabled(true)
@@ -139,6 +140,7 @@ struct Z01a_View17000: View {
                 // MARK: - Style:17997
                 Text("pickerStyle(_:)").pickerStyle(DefaultPickerStyle())
             }
+ */
         }
     }
 }
