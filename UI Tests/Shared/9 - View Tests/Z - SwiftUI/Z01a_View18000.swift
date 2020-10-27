@@ -3,7 +3,7 @@ import SwiftUIJson
 
 struct Z01a_View18000: View {
     @State var item: ViewTest.Item? = nil
-    @State var isPresented = true
+    @State var isPresented = false
     var body: some View {
         VStack {
             Text("View18000")

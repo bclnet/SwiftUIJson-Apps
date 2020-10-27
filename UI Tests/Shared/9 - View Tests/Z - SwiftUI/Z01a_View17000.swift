@@ -3,7 +3,7 @@ import SwiftUIJson
 
 struct Z01a_View17000: View {
     @State var item: ViewTest.Item? = nil
-    @State var isPresented = true
+    @State var isPresented = false
     let timer = Timer.publish(every: 60, on: .main, in: .common) //.autoconnect()
 
     var body: some View {
@@ -12,7 +12,7 @@ struct Z01a_View17000: View {
             VStack {
                 // MARK: - Style:17188
                 Text("datePickerStyle(_:)").datePickerStyle(DefaultDatePickerStyle())
-                
+
                 // MARK: - Sheet:17200
                 Text("sheet(item:onDismiss:content:)").sheet(item: $item, onDismiss: nil) { item in Text("content") }
                 Text("sheet(isPresented:onDismiss:content:)").sheet(isPresented: $isPresented, onDismiss: nil) { Text("content") }
@@ -91,12 +91,12 @@ struct Z01a_View17000: View {
             VStack {
                 // MARK: - Style:17611
                 Text("menuStyle(_:)").menuStyle(DefaultMenuStyle())
-                
+
                 // MARK: - Gesture:17631
                 Text("gesture(_:including:)").gesture(RotationGesture(), including:.all)
                 Text("highPriorityGesture(_:including:)").highPriorityGesture(RotationGesture(), including:.all)
                 Text("simultaneousGesture(_:including:)").simultaneousGesture(RotationGesture(), including:.all)
-                
+
                 // MARK: - FileImporter:17650
                 if #available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *) {
                     Text("fileImporter(isPresented:allowedContentTypes:onCompletion:)").fileImporter(isPresented: $isPresented, allowedContentTypes: []) { result in print("onCompletion") }
@@ -107,14 +107,14 @@ struct Z01a_View17000: View {
                 Text("buttonStyle(_)").buttonStyle(DefaultButtonStyle())
 
                 // MARK: - Anchor:17724
-                Text("transformAnchorPreference(key:value:transform)").transformAnchorPreference(key: ViewTest.TestPreferenceKey.self, value: .bounds) { value, anchor in print("transform") }
+                Text("transformAnchorPreference(key:value:transform)").transformAnchorPreference(key: ViewTest.AnchorPreferenceKey.self, value: .bounds) { value, anchor in print("transform") }
 
                 // MARK: - Redacted:17731
                 if #available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *) {
                     Text("redacted(reason:)").redacted(reason: .placeholder)
                     Text("unredacted()").unredacted()
                 }
-                
+
                 // MARK: - Background:17746
                 Text("background(_:alignment:)").background(Text("background"), alignment: .center)
             }
@@ -135,7 +135,7 @@ struct Z01a_View17000: View {
 
                 // MARK: - Style:17981
                 Text("foregroundColor(_:)").foregroundColor(Color.gray)
-                
+
                 // MARK: - Style:17997
                 Text("pickerStyle(_:)").pickerStyle(DefaultPickerStyle())
             }

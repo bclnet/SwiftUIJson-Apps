@@ -2,10 +2,11 @@ import SwiftUI
 import SwiftUIJson
 
 struct Z01a_Json: View {
+    @State var isPresented = false
     var body: some View {
         VStack {
             Text("Json")
-            Text("italic".var(self))
+            Text("italic".var(self))   
         }
     }
 }

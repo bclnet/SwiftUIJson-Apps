@@ -9,6 +9,12 @@
 /* Begin PBXBuildFile section */
 		54125F42254729FD004124D3 /* Z01a_View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54125F41254729FD004124D3 /* Z01a_View.swift */; };
 		54125F43254729FD004124D3 /* Z01a_View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54125F41254729FD004124D3 /* Z01a_View.swift */; };
+		542A5F82254799E500CB7C9F /* Z01a_View19000.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54125F3E254729FA004124D3 /* Z01a_View19000.swift */; };
+		542A5F85254799E500CB7C9F /* Z01a_View19000.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54125F3E254729FA004124D3 /* Z01a_View19000.swift */; };
+		542A5F882547A05200CB7C9F /* Z01a_View20000.swift in Sources */ = {isa = PBXBuildFile; fileRef = 545F851925472BAE00689264 /* Z01a_View20000.swift */; };
+		542A5F8B2547A05200CB7C9F /* Z01a_View20000.swift in Sources */ = {isa = PBXBuildFile; fileRef = 545F851925472BAE00689264 /* Z01a_View20000.swift */; };
+		542A5F8E2547A97800CB7C9F /* Z01a_View21000.swift in Sources */ = {isa = PBXBuildFile; fileRef = 545F852025472BB500689264 /* Z01a_View21000.swift */; };
+		542A5F912547A97900CB7C9F /* Z01a_View21000.swift in Sources */ = {isa = PBXBuildFile; fileRef = 545F852025472BB500689264 /* Z01a_View21000.swift */; };
 		545F853E254734CD00689264 /* Z01a_View17000.swift in Sources */ = {isa = PBXBuildFile; fileRef = 545F853D254734CD00689264 /* Z01a_View17000.swift */; };
 		545F853F254734CD00689264 /* Z01a_View17000.swift in Sources */ = {isa = PBXBuildFile; fileRef = 545F853D254734CD00689264 /* Z01a_View17000.swift */; };
 		545F8548254739AD00689264 /* Z01a_View18000.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54125F39254729F8004124D3 /* Z01a_View18000.swift */; };
@@ -357,6 +363,7 @@
 				547E980A253491D800E48BD2 /* TestView.swift in Sources */,
 				5493C1EE2544FF7A00AD94F5 /* Z01a_Image.swift in Sources */,
 				5493C1F62544FF7A00AD94F5 /* Z01a_ConditionalContent.swift in Sources */,
+				542A5F912547A97900CB7C9F /* Z01a_View21000.swift in Sources */,
 				5493C1E82544FF7A00AD94F5 /* Z01a_PaddingLayout.swift in Sources */,
 				5493C2022544FF7A00AD94F5 /* Z01a_Text.swift in Sources */,
 				5493C1E02544FF7A00AD94F5 /* _DynaType.swift in Sources */,
@@ -366,6 +373,7 @@
 				5493C1DE2544FF7A00AD94F5 /* Z01a_Accessibility.swift in Sources */,
 				5493C1F22544FF7A00AD94F5 /* Z01a_HStack.swift in Sources */,
 				5493C1E62544FF7A00AD94F5 /* Z01a_Font.swift in Sources */,
+				542A5F82254799E500CB7C9F /* Z01a_View19000.swift in Sources */,
 				547E9808253491D800E48BD2 /* UI_TestsApp.swift in Sources */,
 				5493C1E22544FF7A00AD94F5 /* Z01a_Json.swift in Sources */,
 				5493C2002544FF7A00AD94F5 /* Z01a_LazyHStack.swift in Sources */,
@@ -375,6 +383,7 @@
 				5493C1F82544FF7A00AD94F5 /* Z01a_TupleView.swift in Sources */,
 				5493C1F42544FF7A00AD94F5 /* Z01a_ZStack.swift in Sources */,
 				5493C1E42544FF7A00AD94F5 /* Z01a_Color.swift in Sources */,
+				542A5F8B2547A05200CB7C9F /* Z01a_View20000.swift in Sources */,
 				5493C1FE2544FF7A00AD94F5 /* Z01a_Spacer.swift in Sources */,
 				5493C1F02544FF7A00AD94F5 /* Z01a_VStack.swift in Sources */,
 				5493C1FA2544FF7A00AD94F5 /* Z01a_AnyView.swift in Sources */,
@@ -389,6 +398,7 @@
 				547E980B253491D800E48BD2 /* TestView.swift in Sources */,
 				5493C1EF2544FF7A00AD94F5 /* Z01a_Image.swift in Sources */,
 				5493C1F72544FF7A00AD94F5 /* Z01a_ConditionalContent.swift in Sources */,
+				542A5F8E2547A97800CB7C9F /* Z01a_View21000.swift in Sources */,
 				5493C1E92544FF7A00AD94F5 /* Z01a_PaddingLayout.swift in Sources */,
 				5493C2032544FF7A00AD94F5 /* Z01a_Text.swift in Sources */,
 				5493C1E12544FF7A00AD94F5 /* _DynaType.swift in Sources */,
@@ -398,6 +408,7 @@
 				5493C1DF2544FF7A00AD94F5 /* Z01a_Accessibility.swift in Sources */,
 				5493C1F32544FF7A00AD94F5 /* Z01a_HStack.swift in Sources */,
 				5493C1E72544FF7A00AD94F5 /* Z01a_Font.swift in Sources */,
+				542A5F85254799E500CB7C9F /* Z01a_View19000.swift in Sources */,
 				549D7C4F253B625F00E70B72 /* UI_TestsApp.swift in Sources */,
 				5493C1E32544FF7A00AD94F5 /* Z01a_Json.swift in Sources */,
 				5493C2012544FF7A00AD94F5 /* Z01a_LazyHStack.swift in Sources */,
@@ -407,6 +418,7 @@
 				5493C1F92544FF7A00AD94F5 /* Z01a_TupleView.swift in Sources */,
 				5493C1F52544FF7A00AD94F5 /* Z01a_ZStack.swift in Sources */,
 				5493C1E52544FF7A00AD94F5 /* Z01a_Color.swift in Sources */,
+				542A5F882547A05200CB7C9F /* Z01a_View20000.swift in Sources */,
 				5493C1FF2544FF7A00AD94F5 /* Z01a_Spacer.swift in Sources */,
 				5493C1F12544FF7A00AD94F5 /* Z01a_VStack.swift in Sources */,
 				5493C1FB2544FF7A00AD94F5 /* Z01a_AnyView.swift in Sources */,
