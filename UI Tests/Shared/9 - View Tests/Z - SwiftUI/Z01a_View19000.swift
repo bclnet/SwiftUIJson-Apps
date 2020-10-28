@@ -67,7 +67,7 @@ struct Z01a_View19000: View {
 
                 // MARK: - Frame:19628
                 Text("frame(width:height:alignment:)").frame(width: 200, height: 30, alignment: .topLeading)
-                Text("frame()").frame()
+//                Text("frame()").frame()
 
                 // MARK: - Frame:19696
                 Text("frame(_:)").frame(minWidth: nil, idealWidth: nil, maxWidth: nil, minHeight: nil, idealHeight: nil, maxHeight: nil, alignment: .center)

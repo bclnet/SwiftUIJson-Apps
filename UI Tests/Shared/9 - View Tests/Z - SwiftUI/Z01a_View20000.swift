@@ -124,7 +124,7 @@ struct Z01a_View20000: View {
                     Text("accessibility(addTraits:)").accessibility(addTraits: .isHeader)
                     Text("accessibility(removeTraits:)").accessibility(removeTraits: .isHeader)
                     Text("accessibility(identifier:)").accessibility(identifier: "id")
-                    Text("accessibility(selectionIdentifier:)").accessibility(selectionIdentifier: "id")
+//                    Text("accessibility(selectionIdentifier:)").accessibility(selectionIdentifier: "id")
                     Text("accessibility(sortPriority:)").accessibility(sortPriority: 1)
                 }
                 VStack {

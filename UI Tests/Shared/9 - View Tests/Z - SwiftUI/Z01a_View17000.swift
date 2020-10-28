@@ -12,6 +12,7 @@ struct Z01a_View17000: View {
             VStack {
                 // MARK: - Style:17188
                 Text("datePickerStyle(_:)").datePickerStyle(DefaultDatePickerStyle())
+//                Text("datePickerStyle(_:)").datePickerStyle(CompactDatePickerStyle())
 
 //                // MARK: - Sheet:17200
 //                Text("sheet(item:onDismiss:content:)").sheet(item: $item, onDismiss: nil) { item in Text("content") }
