@@ -18,10 +18,10 @@ import SwiftUIJson
 //}
 
 struct TestView: View {
-//    let xyz: Encodable = VStack { ModifiedContent(content: Text("text"), modifier: DatePickerStyleModifier(style: DefaultDatePickerStyle())) }
     var body: some View {
-        Text("Hello, world!")
-            .padding()
+        Text("").datePickerStyle(CompactDatePickerStyle())
+//        Text("Hello, world!")
+//            .padding()
     }
 }
 
