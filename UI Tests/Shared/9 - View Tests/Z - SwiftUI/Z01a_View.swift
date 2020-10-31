@@ -11,6 +11,14 @@ enum ViewTest {
         //let bounds: Anchor<CGRect>?
     }
     
+    class TestObject: NSObject, NSItemProviderWriting {
+        static var writableTypeIdentifiersForItemProvider: [String] { [""] }
+        
+        func loadData(withTypeIdentifier typeIdentifier: String, forItemProviderCompletionHandler completionHandler: @escaping (Data?, Error?) -> Void) -> Progress? {
+            Progress(totalUnitCount: 1)
+        }
+    }
+    
     class TestSettings: ObservableObject {
     }
     
