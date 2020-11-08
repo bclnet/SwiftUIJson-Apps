@@ -1,7 +1,7 @@
 import SwiftUI
 import SwiftUIJson
 
-struct Z01a_ConditionalContent: View {
+struct Z01a__ConditionalContent: View {
     var body: some View {
         VStack {
             Text("Main")
@@ -13,7 +13,7 @@ struct Z01a_ConditionalContent: View {
     }
 }
 
-struct Z01a_ConditionalContent_: View {
+struct Z01a__ConditionalContent_: View {
     var value = 0
     var body: some View {
         VStack {
@@ -57,10 +57,10 @@ struct Z01a_ConditionalContent_: View {
     }
 }
 
-struct Z01a_ConditionalContent_Previews: PreviewProvider {
+struct Z01a__ConditionalContent_Previews: PreviewProvider {
     static var previews: some View {
         JsonPreview {
-            Z01a_ConditionalContent()
+            Z01a__ConditionalContent()
         }
     }
 }

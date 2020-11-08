@@ -2,8 +2,8 @@ import SwiftUI
 import SwiftUIJson
 
 struct Z01a_Image: View {
-    let uxImage = UXImage(named: "image")!
-    let cgImage = UXImage(named: "image")!.cgImage_!
+    private let uxImage = UXImage(named: "image")!
+    private let cgImage = UXImage(named: "image")!.cgImage_!
     var body: some View {
         VStack {
             Text("Image")

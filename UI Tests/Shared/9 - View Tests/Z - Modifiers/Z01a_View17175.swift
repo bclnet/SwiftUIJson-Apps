@@ -37,7 +37,7 @@ struct Z01a_View17175: View {
 //                Text("itemProvider(_:)").itemProvider { NSItemProvider(object: "String" as NSString) }
 //                Text("itemProvider(_:)").itemProvider { NSItemProvider(object: ViewTest.TestObject()) }
 //            }
-            VStack {
+//            VStack {
 //                // MARK: - DeleteDisabled:17313
 //                Text("deleteDisabled(_:)").deleteDisabled(true)
 //
@@ -48,7 +48,7 @@ struct Z01a_View17175: View {
 //                Text("onDrag(_:)").onDrag() { NSItemProvider(object: "data" as NSString) }
 //
 //                // MARK: - Accessibility:17352
-                Text("accessibilityAction(_:handler:)").accessibilityAction(.default) { print("handler") }
+//                Text("accessibilityAction(_:handler:)").accessibilityAction(.default) { print("handler") }
 //                Text("accessibilityAction(named:handler:)").accessibilityAction(named: Text("name")) { print("handler") }
 //
 //                // MARK: - Accessibility:17362
@@ -67,30 +67,30 @@ struct Z01a_View17175: View {
 //
 //                // MARK: - OnReceive:17400
 //                Text("onReceive(_:perform:)").onReceive(timer) { input in print("perform") }
-            }
-            /*
+//            }
             VStack {
                 // MARK: - Modifier:17418
-                Text("modifier(_:perform:)").modifier(_PaddingLayout(insets: nil))
+//                Text("modifier(_:perform:)").modifier(_PaddingLayout(insets: nil))
 
-                // MARK: - Accessibility:17466
-                if #available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *) {
-                    Text("accessibilityIgnoresInvertColors(_:)").accessibilityIgnoresInvertColors(true)
-                }
-
-                // MARK: - HitTesting:17481
-                Text("allowsHitTesting(_:)").allowsHitTesting(true)
-
-                // MARK: - OnAppear:17481
-                Text("onAppear(perform:)").onAppear() { print("perform") }
-                Text("onDisappear(perform:)").onDisappear() { print("perform") }
-
-                // MARK: - ContextMenu:17519
+//                // MARK: - Accessibility:17466
+//                if #available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *) {
+//                    Text("accessibilityIgnoresInvertColors(_:)").accessibilityIgnoresInvertColors(true)
+//                }
+//
+//                // MARK: - HitTesting:17481
+//                Text("allowsHitTesting(_:)").allowsHitTesting(true)
+//
+//                // MARK: - OnAppear:17481
+//                Text("onAppear(perform:)").onAppear() { print("perform") }
+//                Text("onDisappear(perform:)").onDisappear() { print("perform") }
+//
+//                // MARK: - ContextMenu:17519
                 Text("contextMenu(menuItems:)").contextMenu { Text("item") }
-
-                // MARK: - ContextMenu:17557
-                Text("contextMenu(_:)").contextMenu(ContextMenu { Text("item") })
+//
+//                // MARK: - ContextMenu:17557
+//                Text("contextMenu(_:)").contextMenu(ContextMenu { Text("item") })
             }
+            /*
             VStack {
                 // MARK: - Style:17611
                 Text("menuStyle(_:)").menuStyle(DefaultMenuStyle())

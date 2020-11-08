@@ -19,8 +19,7 @@ import SwiftUIJson
 
 struct TestView: View {
     var body: some View {
-        Text("").datePickerStyle(CompactDatePickerStyle())
-//        Text("Hello, world!")
+        Text("Hello, world!")
 //            .padding()
     }
 }
