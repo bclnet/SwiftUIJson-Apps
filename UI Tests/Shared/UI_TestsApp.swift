@@ -68,13 +68,15 @@ import SwiftUIJson
 //typealias ContentView = Z01a_Divider
 //typealias ContentView = Z01a_EditButton
 //typealias ContentView = Z01a_EmptyView
+typealias ContentView = Z01a_ForEach
 //typealias ContentView = Z01a_HStack
 //typealias ContentView = Z01a_Image
 //typealias ContentView = Z01a_LazyHStack
 //typealias ContentView = Z01a_LazyVStack
-typealias ContentView = Z01a_Picker
+//typealias ContentView = Z01a_Picker
 //typealias ContentView = Z01a_Slider
 //typealias ContentView = Z01a_Spacer
+//typealias ContentView = Z01a_Stepper
 //typealias ContentView = Z01a_Text //: (Incomplete)
 //typealias ContentView = Z01a_Toggle
 //typealias ContentView = Z01a_VStack

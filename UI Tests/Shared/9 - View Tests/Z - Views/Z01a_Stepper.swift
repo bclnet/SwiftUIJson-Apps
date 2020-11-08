@@ -2,14 +2,20 @@ import SwiftUI
 import SwiftUIJson
 
 struct Z01a_Stepper: View {
+    @State private var value = 1
     var body: some View {
         VStack {
             Text("Stepper")
             VStack {
-                Button(action: { print("action") }, label: { Text("label") })
-                Button("titleKey", action: { print("action") })
-                Button(String("title"), action: { print("action") })
-                Button("configuration", action: { print("action") }).buttonStyle(DefaultButtonStyle())
+                Stepper(onIncrement: { print("onIncrement") }, onDecrement: { print("onDecrement") }, onEditingChanged: { _ in }) { Text("label") }
+                Stepper(value: $value, step: 1, onEditingChanged: { _ in }) { Text("label") }
+                Stepper(value: $value, in: 0...100, step: 1, onEditingChanged: { _ in }) { Text("label") }
+                Stepper("titleKey", onIncrement: { print("onIncrement") }, onDecrement: { print("onDecrement") }, onEditingChanged: { _ in })
+                Stepper(String("title"), onIncrement: { print("onIncrement") }, onDecrement: { print("onDecrement") }, onEditingChanged: { _ in })
+                Stepper("titleKey", value: $value, step: 1, onEditingChanged: { _ in })
+                Stepper(String("title"), value: $value, step: 1, onEditingChanged: { _ in })
+                Stepper("titleKey", value: $value, in: 0...100, step: 1, onEditingChanged: { _ in })
+                Stepper(String("title"), value: $value, in: 0...100, step: 1, onEditingChanged: { _ in })
             }
         }
     }

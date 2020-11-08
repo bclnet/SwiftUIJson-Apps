@@ -2,14 +2,17 @@ import SwiftUI
 import SwiftUIJson
 
 struct Z01a_Slider: View {
+    @State private var value: Double = 0
     var body: some View {
         VStack {
             Text("Slider")
             VStack {
-                Button(action: { print("action") }, label: { Text("label") })
-                Button("titleKey", action: { print("action") })
-                Button(String("title"), action: { print("action") })
-                Button("configuration", action: { print("action") }).buttonStyle(DefaultButtonStyle())
+//                Slider(value: $value, in: -100...100, onEditingChanged: { _ in }, minimumValueLabel: Text("min"), maximumValueLabel: Text("max")) { Text("label") }
+//                Slider(value: $value, in: 0...100, step: 0.5, onEditingChanged: { _ in }, minimumValueLabel: Text("min"), maximumValueLabel: Text("max")) { Text("label") }
+//                Slider(value: $value, in: -100...100, onEditingChanged: { _ in }) { Text("label") }
+//                Slider(value: $value, in: -100...100, step: 0.5, onEditingChanged: { _ in }) { Text("label") }
+//                Slider(value: $value, in: -100...100, onEditingChanged: { _ in })
+//                Slider(value: $value, in: -100...100, step: 0.5, onEditingChanged: { _ in })
             }
         }
     }
