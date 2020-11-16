@@ -7,6 +7,8 @@ struct Z01a_Circle: View {
             Text("Circle")
             VStack {
                 Circle()
+                Circle().path(in: CGRect(x: 0, y: 0, width: 10, height: 10))
+                Circle().inset(by: 10.0)
             }
         }
     }

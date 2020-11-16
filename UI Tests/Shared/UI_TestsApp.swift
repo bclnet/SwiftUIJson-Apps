@@ -45,8 +45,6 @@ import SwiftUIJson
 //typealias ContentView = Z01a_View20000 //: (Incomplete)
 //typealias ContentView = Z01a_View21000 //: (Incomplete)
 
-// MARK: - SwiftUI:Shapes
-//typealias ContentView = Z01a_Circle
 // MARK: - SwiftUI
 //typealias ContentView = _DynaType
 //typealias ContentView = Z01a_Color
@@ -55,6 +53,18 @@ import SwiftUIJson
 //typealias ContentView = Z01a_LocalizedStringKey //: (Missing)
 //typealias ContentView = Z01a_PinnedScrollableViews //: (Missing)
 
+// MARK: - Views:Shapes
+//typealias ContentView = Z01a_Capsule
+//typealias ContentView = Z01a_Circle
+//typealias ContentView = Z01a_ContainerRelativeShape
+//typealias ContentView = Z01a_Ellipse
+typealias ContentView = Z01a_OffsetShape //: (Incomplete)
+//typealias ContentView = Z01a_Path //: (Incomplete)
+//typealias ContentView = Z01a_Rectangle
+//typealias ContentView = Z01a_RotatedShape //: (Incomplete)
+//typealias ContentView = Z01a_RoundedRectangle
+//typealias ContentView = Z01a_ScaledShape //: (Incomplete)
+//typealias ContentView = Z01a_TransformedShape //: (Incomplete)
 // MARK: - Views:System
 //typealias ContentView = Z01a__ConditionalContent //: (Throws)
 //typealias ContentView = Z01a__VariadicView //: (Missing)
@@ -68,7 +78,7 @@ import SwiftUIJson
 //typealias ContentView = Z01a_Divider
 //typealias ContentView = Z01a_EditButton
 //typealias ContentView = Z01a_EmptyView
-typealias ContentView = Z01a_ForEach
+//typealias ContentView = Z01a_ForEach
 //typealias ContentView = Z01a_HStack
 //typealias ContentView = Z01a_Image
 //typealias ContentView = Z01a_LazyHStack
