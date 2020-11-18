@@ -42,10 +42,10 @@ struct y_View18000: View {
                 Text("transformEffect(_:)").transformEffect(CGAffineTransform(rotationAngle: -30 * (.pi / 180)))
 
                 // MARK: - Sheet:18447
-                if #available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *) {
-                    Text("actionSheet(item:content:)").actionSheet(item: $item) { item in ActionSheet(title: Text("content")) }
-                    Text("actionSheet(isPresented:content)").actionSheet(isPresented: $isPresented) { ActionSheet(title: Text("content")) }
-                }
+                #if !os(macOS)
+                Text("actionSheet(item:content:)").actionSheet(item: $item) { item in ActionSheet(title: Text("content")) }
+                Text("actionSheet(isPresented:content)").actionSheet(isPresented: $isPresented) { ActionSheet(title: Text("content")) }
+                #endif
 
                 // MARK: - Style:18476
                 if #available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *) {

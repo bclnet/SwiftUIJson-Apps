@@ -35,9 +35,7 @@ struct z_Color: View {
                 Text("_:bundle").foregroundColor(Color("AccentColor", bundle: nil))
                 
                 // MARK: - UXColor
-                if #available(iOS 13.0, macOS 999, tvOS 13.0, watchOS 6.0, *) {
-                    Text("_:UXColor").foregroundColor(Color(UXColor.red))
-                }
+                Text("_:UXColor").foregroundColor(Color(UXColor.red))
                 
                 // MARK: - Opacity
                 Text("opacity").foregroundColor(Color.gray.opacity(0.5))

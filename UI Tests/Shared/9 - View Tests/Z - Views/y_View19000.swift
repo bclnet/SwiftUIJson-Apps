@@ -73,18 +73,20 @@ struct y_View19000: View {
                 Text("frame(_:)").frame(minWidth: nil, idealWidth: nil, maxWidth: nil, minHeight: nil, idealHeight: nil, maxHeight: nil, alignment: .center)
 
                 // MARK: - Style:19743
-                if #available(iOS 14.0, macOS 11.0, tvOS 999, watchOS 999, *) {
+                #if !os(tvOS) && !os(watchOS)
+                if #available(iOS 14.0, macOS 11.0, *) {
                     Text("groupBoxStyle(_:)").groupBoxStyle(DefaultGroupBoxStyle())
                 }
+                #endif
 
                 // MARK: - TabItem:19755
                 Text("tabItem(_:)").tabItem { Text("label") }
 
                 // MARK: - Popover:19801
-                if #available(iOS 13.0, macOS 10.15, tvOS 999, watchOS 999, *) {
-                    Text("popover(item:attachmentAnchor:arrowEdge:content:)").popover(item: $item, attachmentAnchor: .rect(.bounds), arrowEdge: .top) { item in Text("content") }
-                    Text("popover(isPresented:attachmentAnchor:arrowEdge:content:)").popover(isPresented: $isPresented, attachmentAnchor: .rect(.bounds), arrowEdge: .top) { Text("content") }
-                }
+                #if !os(tvOS) && !os(watchOS)
+                Text("popover(item:attachmentAnchor:arrowEdge:content:)").popover(item: $item, attachmentAnchor: .rect(.bounds), arrowEdge: .top) { item in Text("content") }
+                Text("popover(isPresented:attachmentAnchor:arrowEdge:content:)").popover(isPresented: $isPresented, attachmentAnchor: .rect(.bounds), arrowEdge: .top) { Text("content") }
+                #endif
             }
             VStack {
                 // MARK: - Style:19840
@@ -93,27 +95,31 @@ struct y_View19000: View {
                 }
 
                 // MARK: - OnHover:19857
-                if #available(iOS 13.4, macOS 10.15, tvOS 999, watchOS 999, *) {
+                #if !os(tvOS) && !os(watchOS)
+                if #available(iOS 13.4, macOS 10.15, *) {
                     Text("onHover(perform:)").onHover { enter in print("perform") }
                 }
+                #endif
 
                 // MARK: - Effect:19878
-                if #available(iOS 13.4, macOS 999, tvOS 999, watchOS 999, *) {
+                #if !os(macOS) && !os(tvOS) && !os(watchOS)
+                if #available(iOS 13.4, *) {
                     Text("hoverEffect(effect:)").hoverEffect(.automatic)
                 }
+                #endif
 
                 // MARK: - Hidden:19895
                 Text("hidden()").hidden()
 
                 // MARK: - Keyboard:19907
-                if #available(iOS 13.0, tvOS 13.0, macOS 999, watchOS 999, *) {
-                    Text("keyboardType(_:)").keyboardType(.emailAddress)
-                }
+                #if !os(macOS) && !os(watchOS)
+                Text("keyboardType(_:)").keyboardType(.emailAddress)
+                #endif
 
                 // MARK: - Keyboard:19940
-                if #available(iOS 13.0, tvOS 13.0, macOS 999, watchOS 999, *) {
-                    Text("autocapitalization(_:)").autocapitalization(UITextAutocapitalizationType.words)
-                }
+                #if !os(macOS) && !os(watchOS)
+                Text("autocapitalization(_:)").autocapitalization(UITextAutocapitalizationType.words)
+                #endif
 
                 // MARK: - Effect:19967
                 if #available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *) {

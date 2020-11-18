@@ -16,16 +16,20 @@ struct y_View21000: View {
                 }
                 
                 // MARK: - FileMover:21048
-                if #available(iOS 14.0, macOS 11.0, tvOS 999, watchOS 999, *) {
+                #if !os(tvOS) && !os(watchOS)
+                if #available(iOS 14.0, macOS 11.0, *) {
                     Text("fileMover(isPresented:file:onCompletion:)").fileMover(isPresented: $isPresented, file: nil) { result in print("onCompletion") }
                     Text("fileMover(isPresented:files:onCompletion:)").fileMover(isPresented: $isPresented, files: []) { result in print("onCompletion") }
                 }
+                #endif
                 
                 // MARK: - Item:21092
-                if #available(iOS 14.0, macOS 11.0, tvOS 999, watchOS 999, *) {
+                #if !os(tvOS) && !os(watchOS)
+                if #available(iOS 14.0, macOS 11.0, *) {
                     Text("listItemTint(_:)").listItemTint(ListItemTint.monochrome)
                     Text("listItemTint(_:)").listItemTint(Color.gray)
                 }
+                #endif
                 
                 // MARK: - Accessibility:21123
                 if #available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *) {
@@ -68,12 +72,15 @@ struct y_View21000: View {
                 }
                 
                 // MARK: - Activity:21337
-                if #available(iOS 14.0, macOS 11.0, tvOS 999, watchOS 999, *) {
+                #if !os(tvOS) && !os(watchOS)
+                if #available(iOS 14.0, macOS 11.0, *) {
                     Text("handlesExternalEvents(preferring:allowing:)").handlesExternalEvents(preferring: [], allowing: [])
                 }
+                #endif
                 
                 // MARK: - FileExporter:21435
-                if #available(iOS 14.0, macOS 11.0, tvOS 999, watchOS 999, *) {
+                #if !os(tvOS) && !os(watchOS)
+                if #available(iOS 14.0, macOS 11.0, *) {
                     Text("fileExporter(isPresented:document:contentType:defaultFilename:onCompletion:)")
                         .fileExporter(isPresented: $isPresented, document: ViewTest.TestDocument(), contentType: .text, defaultFilename: nil) { result in print("onCompletion") }
                     Text("fileExporter(isPresented:documents:contentType:onCompletion:)")
@@ -83,6 +90,7 @@ struct y_View21000: View {
                     Text("fileExporter(isPresented:documents:contentType:onCompletion:)")
                         .fileExporter(isPresented: $isPresented, documents: [ViewTest.TestReferenceDocument()], contentType: .text) { result in print("onCompletion") }
                 }
+                #endif
                 
                 // MARK: - Layout:21543
                 Text("layoutPriority(_:)").layoutPriority(1)
@@ -95,16 +103,20 @@ struct y_View21000: View {
             }
             VStack {
                 // MARK: - Navigation:21617
-                if #available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *) {
+                #if !os(macOS) && !os(tvOS) && !os(watchOS)
+                if #available(iOS 14.0, *) {
                     Text("navigationBarTitleDisplayMode(_:)").navigationBarTitleDisplayMode(.automatic)
                 }
+                #endif
                 
                 // MARK: - Navigation:21670
-                if #available(iOS 14.0, macOS 999, tvOS 999, watchOS 999, *) {
+                #if !os(macOS) && !os(tvOS) && !os(watchOS)
+                if #available(iOS 14.0, *) {
                     Text("navigationTitle(_:)").navigationTitle(Text("title"))
                     Text("navigationTitle(_:)").navigationTitle("title")
                     Text("navigationTitle(_:)").navigationTitle(String("title"))
                 }
+                #endif
                 
                 // MARK: - Accessibility:21683
                 Text("accessibilityAdjustableAction(_:)").accessibilityAdjustableAction { direction in print("handler") }
@@ -115,17 +127,19 @@ struct y_View21000: View {
                 }
                 
                 // MARK: - OnDrop:21706
-                if #available(iOS 14.0, macOS 11.0, tvOS 999, watchOS 999, *) {
+                #if !os(tvOS) && !os(watchOS)
+                if #available(iOS 14.0, macOS 11.0, *) {
                     Text("onDrop(of:isTargeted:perform:)").onDrop(of: [.text], isTargeted: $isTargeted) { items in print("perform"); return false }
                     Text("onDrop(of:isTargeted:perform:)").onDrop(of: [.text], isTargeted: $isTargeted) { items, point in print("perform"); return false }
                     Text("onDrop(of:delegate:)").onDrop(of: [.text], delegate: ViewTest.TestDropDelegate())
                 }
+                #endif
                 
                 // MARK: - OnDrop:21782
-                if #available(iOS 13.0, macOS 10.15, tvOS 999, watchOS 999, *) {
-                    Text("onDrop(of:isTargeted:perform:)").onDrop(of: ["text"], isTargeted: $isTargeted) { items in print("perform"); return false }
-                    Text("onDrop(of:isTargeted:perform:)").onDrop(of: ["text"], isTargeted: $isTargeted) { items, point in print("perform"); return false }
-                }
+                #if !os(tvOS) && !os(watchOS)
+                Text("onDrop(of:isTargeted:perform:)").onDrop(of: ["text"], isTargeted: $isTargeted) { items in print("perform"); return false }
+                Text("onDrop(of:isTargeted:perform:)").onDrop(of: ["text"], isTargeted: $isTargeted) { items, point in print("perform"); return false }
+                #endif
             }
             VStack {
                 // MARK: - Effect:21861
@@ -140,9 +154,11 @@ struct y_View21000: View {
                 }
                 
                 // MARK: - StatusBar:21942
-                if #available(iOS 13.0, watchOS 6.0, macOS 999, tvOS 999, *) {
+                #if !os(macOS) && !os(tvOS)
+                if #available(iOS 13.0, watchOS 6.0, *) {
                     Text("statusBar(hidden:)").statusBar(hidden: false)
                 }
+                #endif
                 
                 // MARK: - Environment:21960
                 Text("environmentObject(_:)").environmentObject(ViewTest.TestSettings())
@@ -152,9 +168,11 @@ struct y_View21000: View {
                 Text("alert(isPresented:content:)").alert(isPresented: $isPresented) { Alert(title: Text("content")) }
                 
                 // MARK: - Navigation:21997
+                #if !os(macOS) && !os(watchOS)
                 Text("navigationBarItems(leading:trailing:)").navigationBarItems(leading: Text("leading"), trailing: Text("trailing"))
                 Text("navigationBarItems(leading:)").navigationBarItems(leading: Text("leading"))
                 Text("navigationBarItems(trailing:)").navigationBarItems(trailing: Text("trailing"))
+                #endif
             }
         }
     }

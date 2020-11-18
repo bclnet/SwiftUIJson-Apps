@@ -25,21 +25,26 @@ struct y_View20000: View {
                 Text("flipsForRightToLeftLayoutDirection(_:)").flipsForRightToLeftLayoutDirection(true)
                 
                 // MARK: - Style:20053
-                if #available(iOS 13.0, tvOS 13.0, macOS 999, watchOS 999, *) {
+                #if !os(macOS) && !os(watchOS)
+                if #available(iOS 13.0, tvOS 13.0, *) {
                     Text("textContentType(_:)").textContentType(.emailAddress)
                 }
+                #endif
                 
                 // MARK: - Style:20105
                 Text("labelsHidden()").labelsHidden()
                 
                 // MARK: - Keyboard:20141
-                if #available(iOS 14.0, macOS 11.0, tvOS 999, watchOS 999, *) {
+                #if !os(tvOS) && !os(watchOS)
+                if #available(iOS 14.0, macOS 11.0, *) {
                     Text("keyboardShortcut(_:modifiers:)").keyboardShortcut("A", modifiers: .command)
                     Text("keyboardShortcut(_:)").keyboardShortcut(KeyboardShortcut(KeyEquivalent.init("A")))
                 }
+                #endif
                 
                 // MARK: - Navigation:20183
-                if #available(iOS 13.0, tvOS 13.0, watchOS 6.0, macOS 999, *) {
+                #if !os(watchOS) && !os(macOS)
+                if #available(iOS 13.0, tvOS 13.0, *) {
                     Text("navigationBarHidden(_:)").navigationBarHidden(false)
                     Text("navigationBarTitle(_:)").navigationBarTitle(Text("title"))
                     Text("navigationBarTitle(_:)").navigationBarTitle("title")
@@ -51,6 +56,7 @@ struct y_View20000: View {
                     }
                     Text("navigationBarBackButtonHidden(_:)").navigationBarBackButtonHidden(false)
                 }
+                #endif
                 
                 // MARK: - Style:20440
                 if #available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *) {
@@ -70,9 +76,11 @@ struct y_View20000: View {
                 }
                 
                 // MARK: - Gesture:20440
-                if #available(iOS 13.0, macOS 10.10, watchOS 6.0, tvOS 999, *) {
+                #if !os(tvOS)
+                if #available(iOS 13.0, macOS 10.10, watchOS 6.0, *) {
                     Text("onTapGesture(count:perform:)").onTapGesture(count: 1) { print("perform") }
                 }
+                #endif
                 
                 // MARK: - Style:20650
                 Text("listRowInsets(_:)").listRowInsets(EdgeInsets(top: 0, leading: 75, bottom: 0, trailing: 0))

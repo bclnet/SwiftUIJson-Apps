@@ -61,8 +61,8 @@ import SwiftUIJson
 //typealias ContentView = z_UnitPoint
 
 // MARK: - Views:Shapes
-//typealias ContentView = y_InsettableShape8045
-typealias ContentView = y_Shape13178
+typealias ContentView = y_InsettableShape8045
+//typealias ContentView = y_Shape13178
 //typealias ContentView = z_Capsule
 //typealias ContentView = z_Circle
 //typealias ContentView = z_ContainerRelativeShape
