@@ -13,7 +13,7 @@ import SwiftUIJson
 // MARK: - JsonUI
 //typealias ContentView = z_Json //: (Incomplete)
 
-// MARK: - Modifiers:System
+// MARK: - Modifiers:Style
 //typealias ContentView = z__TabViewStyleModifier //: (Todo)
 //typealias ContentView = z_ButtonStyleModifier //: (Missing)
 //typealias ContentView = z_DatePickerStyleModifier //: (Missing)
@@ -39,18 +39,30 @@ import SwiftUIJson
 //typealias ContentView = z_ModifiedContent //: (Missing)
 //typealias ContentView = z_ModifierGesture //: (Missing)
 
-
+// MARK: - SwiftUI:ShapeStyles
+//typealias ContentView = z_AngularGradient
+//typealias ContentView = z_BackgroundStyle
+//typealias ContentView = z_ForegroundStyle
+//typealias ContentView = z_ImagePaint
+//typealias ContentView = z_LinearGradient
+//typealias ContentView = z_RadialGradient
+//typealias ContentView = z_SelectionShapeStyle
+//typealias ContentView = z_SeparatorShapeStyle
 // MARK: - SwiftUI
-//typealias ContentView = _DynaType
+//typealias ContentView = y_DynaType
+//typealias ContentView = z_Angle
+//typealias ContentView = z_Binding
 //typealias ContentView = z_Color
-//typealias ContentView = z_Edge //: (Missing)
+//typealias ContentView = z_Edge
 //typealias ContentView = z_Font //: (Throws)
+//typealias ContentView = z_Gradient
 //typealias ContentView = z_LocalizedStringKey //: (Missing)
 //typealias ContentView = z_PinnedScrollableViews //: (Missing)
+//typealias ContentView = z_UnitPoint
 
 // MARK: - Views:Shapes
-typealias ContentView = y_InsettableShape8045
-//typealias ContentView = y_Shape13178
+//typealias ContentView = y_InsettableShape8045
+typealias ContentView = y_Shape13178
 //typealias ContentView = z_Capsule
 //typealias ContentView = z_Circle
 //typealias ContentView = z_ContainerRelativeShape

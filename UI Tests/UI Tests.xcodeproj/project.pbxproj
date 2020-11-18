@@ -35,6 +35,34 @@
 		545F853F254734CD00689264 /* y_View17179.swift in Sources */ = {isa = PBXBuildFile; fileRef = 545F853D254734CD00689264 /* y_View17179.swift */; };
 		545F8548254739AD00689264 /* y_View18000.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54125F39254729F8004124D3 /* y_View18000.swift */; };
 		545F854B254739AD00689264 /* y_View18000.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54125F39254729F8004124D3 /* y_View18000.swift */; };
+		5467B48C256564F800822BB6 /* z_AngularGradient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5467B489256564AD00822BB6 /* z_AngularGradient.swift */; };
+		5467B48F256564F900822BB6 /* z_AngularGradient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5467B489256564AD00822BB6 /* z_AngularGradient.swift */; };
+		5467B4932565655000822BB6 /* z_RadialGradient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5467B4922565655000822BB6 /* z_RadialGradient.swift */; };
+		5467B4942565655000822BB6 /* z_RadialGradient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5467B4922565655000822BB6 /* z_RadialGradient.swift */; };
+		5467B4982565655100822BB6 /* z_LinearGradient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5467B4972565655100822BB6 /* z_LinearGradient.swift */; };
+		5467B4992565655100822BB6 /* z_LinearGradient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5467B4972565655100822BB6 /* z_LinearGradient.swift */; };
+		5467B49E2565655400822BB6 /* z_BackgroundStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5467B49D2565655400822BB6 /* z_BackgroundStyle.swift */; };
+		5467B49F2565655400822BB6 /* z_BackgroundStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5467B49D2565655400822BB6 /* z_BackgroundStyle.swift */; };
+		5467B4AE2565659800822BB6 /* z_SeparatorShapeStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5467B4AD2565659800822BB6 /* z_SeparatorShapeStyle.swift */; };
+		5467B4AF2565659800822BB6 /* z_SeparatorShapeStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5467B4AD2565659800822BB6 /* z_SeparatorShapeStyle.swift */; };
+		5467B4B32565659900822BB6 /* z_SelectionShapeStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5467B4B22565659900822BB6 /* z_SelectionShapeStyle.swift */; };
+		5467B4B42565659900822BB6 /* z_SelectionShapeStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5467B4B22565659900822BB6 /* z_SelectionShapeStyle.swift */; };
+		5467B4C02565668300822BB6 /* z_Gradient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5467B4BF2565668300822BB6 /* z_Gradient.swift */; };
+		5467B4C12565668300822BB6 /* z_Gradient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5467B4BF2565668300822BB6 /* z_Gradient.swift */; };
+		5467B4C72565673600822BB6 /* z_Angle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5467B4C62565673600822BB6 /* z_Angle.swift */; };
+		5467B4C82565673600822BB6 /* z_Angle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5467B4C62565673600822BB6 /* z_Angle.swift */; };
+		5467B4CE2565674000822BB6 /* z_Binding.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5467B4CD2565674000822BB6 /* z_Binding.swift */; };
+		5467B4CF2565674000822BB6 /* z_Binding.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5467B4CD2565674000822BB6 /* z_Binding.swift */; };
+		5467B4D625659C2E00822BB6 /* z_UnitPoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5467B4D525659C2E00822BB6 /* z_UnitPoint.swift */; };
+		5467B4D725659C2E00822BB6 /* z_UnitPoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5467B4D525659C2E00822BB6 /* z_UnitPoint.swift */; };
+		5467B4E025659C3B00822BB6 /* z_PinnedScrollableViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5467B4DF25659C3B00822BB6 /* z_PinnedScrollableViews.swift */; };
+		5467B4E125659C3B00822BB6 /* z_PinnedScrollableViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5467B4DF25659C3B00822BB6 /* z_PinnedScrollableViews.swift */; };
+		5467B4EE2565C1C600822BB6 /* z_Edge.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5467B4D425659C1500822BB6 /* z_Edge.swift */; };
+		5467B4F12565C1C700822BB6 /* z_Edge.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5467B4D425659C1500822BB6 /* z_Edge.swift */; };
+		5467B4F42565CFC900822BB6 /* z_ForegroundStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5467B4A22565655600822BB6 /* z_ForegroundStyle.swift */; };
+		5467B4F72565CFCA00822BB6 /* z_ForegroundStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5467B4A22565655600822BB6 /* z_ForegroundStyle.swift */; };
+		5467B4FA2565D00500822BB6 /* z_ImagePaint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5467B49C2565655300822BB6 /* z_ImagePaint.swift */; };
+		5467B4FD2565D00600822BB6 /* z_ImagePaint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5467B49C2565655300822BB6 /* z_ImagePaint.swift */; };
 		54738F0F2551AEE400D23741 /* z__OffsetEffect.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54738F0E2551AEE400D23741 /* z__OffsetEffect.swift */; };
 		54738F102551AEE400D23741 /* z__OffsetEffect.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54738F0E2551AEE400D23741 /* z__OffsetEffect.swift */; };
 		547724DB2564218200C5444F /* y_InsettableShape8045.swift in Sources */ = {isa = PBXBuildFile; fileRef = 547724DA2564212500C5444F /* y_InsettableShape8045.swift */; };
@@ -54,8 +82,8 @@
 		5493C1DD2544FF7A00AD94F5 /* z_Animation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5493C1C42544FF7A00AD94F5 /* z_Animation.swift */; };
 		5493C1DE2544FF7A00AD94F5 /* z_Accessibility.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5493C1C52544FF7A00AD94F5 /* z_Accessibility.swift */; };
 		5493C1DF2544FF7A00AD94F5 /* z_Accessibility.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5493C1C52544FF7A00AD94F5 /* z_Accessibility.swift */; };
-		5493C1E02544FF7A00AD94F5 /* _DynaType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5493C1C72544FF7A00AD94F5 /* _DynaType.swift */; };
-		5493C1E12544FF7A00AD94F5 /* _DynaType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5493C1C72544FF7A00AD94F5 /* _DynaType.swift */; };
+		5493C1E02544FF7A00AD94F5 /* y_DynaType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5493C1C72544FF7A00AD94F5 /* y_DynaType.swift */; };
+		5493C1E12544FF7A00AD94F5 /* y_DynaType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5493C1C72544FF7A00AD94F5 /* y_DynaType.swift */; };
 		5493C1E22544FF7A00AD94F5 /* z_Json.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5493C1C82544FF7A00AD94F5 /* z_Json.swift */; };
 		5493C1E32544FF7A00AD94F5 /* z_Json.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5493C1C82544FF7A00AD94F5 /* z_Json.swift */; };
 		5493C1E42544FF7A00AD94F5 /* z_Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5493C1C92544FF7A00AD94F5 /* z_Color.swift */; };
@@ -131,6 +159,21 @@
 		545F851925472BAE00689264 /* y_View20000.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = y_View20000.swift; sourceTree = "<group>"; };
 		545F852025472BB500689264 /* y_View21000.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = y_View21000.swift; sourceTree = "<group>"; };
 		545F853D254734CD00689264 /* y_View17179.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = y_View17179.swift; sourceTree = "<group>"; };
+		5467B489256564AD00822BB6 /* z_AngularGradient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = z_AngularGradient.swift; sourceTree = "<group>"; };
+		5467B4922565655000822BB6 /* z_RadialGradient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = z_RadialGradient.swift; sourceTree = "<group>"; };
+		5467B4972565655100822BB6 /* z_LinearGradient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = z_LinearGradient.swift; sourceTree = "<group>"; };
+		5467B49C2565655300822BB6 /* z_ImagePaint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = z_ImagePaint.swift; sourceTree = "<group>"; };
+		5467B49D2565655400822BB6 /* z_BackgroundStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = z_BackgroundStyle.swift; sourceTree = "<group>"; };
+		5467B4A22565655600822BB6 /* z_ForegroundStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = z_ForegroundStyle.swift; sourceTree = "<group>"; };
+		5467B4AD2565659800822BB6 /* z_SeparatorShapeStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = z_SeparatorShapeStyle.swift; sourceTree = "<group>"; };
+		5467B4B22565659900822BB6 /* z_SelectionShapeStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = z_SelectionShapeStyle.swift; sourceTree = "<group>"; };
+		5467B4BF2565668300822BB6 /* z_Gradient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = z_Gradient.swift; sourceTree = "<group>"; };
+		5467B4C62565673600822BB6 /* z_Angle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = z_Angle.swift; sourceTree = "<group>"; };
+		5467B4CD2565674000822BB6 /* z_Binding.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = z_Binding.swift; sourceTree = "<group>"; };
+		5467B4D425659C1500822BB6 /* z_Edge.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = z_Edge.swift; sourceTree = "<group>"; };
+		5467B4D525659C2E00822BB6 /* z_UnitPoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = z_UnitPoint.swift; sourceTree = "<group>"; };
+		5467B4DC25659C3700822BB6 /* z_LocalizedStringKey.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = z_LocalizedStringKey.swift; sourceTree = "<group>"; };
+		5467B4DF25659C3B00822BB6 /* z_PinnedScrollableViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = z_PinnedScrollableViews.swift; sourceTree = "<group>"; };
 		54738F0E2551AEE400D23741 /* z__OffsetEffect.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = z__OffsetEffect.swift; sourceTree = "<group>"; };
 		54738F212551B61400D23741 /* z_Circle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = z_Circle.swift; sourceTree = "<group>"; };
 		54738F262551B6A700D23741 /* z_AnyViewModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = z_AnyViewModifier.swift; sourceTree = "<group>"; };
@@ -148,7 +191,7 @@
 		547E9818253491EB00E48BD2 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		5493C1C42544FF7A00AD94F5 /* z_Animation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = z_Animation.swift; sourceTree = "<group>"; };
 		5493C1C52544FF7A00AD94F5 /* z_Accessibility.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = z_Accessibility.swift; sourceTree = "<group>"; };
-		5493C1C72544FF7A00AD94F5 /* _DynaType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = _DynaType.swift; sourceTree = "<group>"; };
+		5493C1C72544FF7A00AD94F5 /* y_DynaType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = y_DynaType.swift; sourceTree = "<group>"; };
 		5493C1C82544FF7A00AD94F5 /* z_Json.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = z_Json.swift; sourceTree = "<group>"; };
 		5493C1C92544FF7A00AD94F5 /* z_Color.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = z_Color.swift; sourceTree = "<group>"; };
 		5493C1CA2544FF7A00AD94F5 /* z_Font.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = z_Font.swift; sourceTree = "<group>"; };
@@ -201,6 +244,21 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5467B488256564A200822BB6 /* ShapeStypes */ = {
+			isa = PBXGroup;
+			children = (
+				5467B489256564AD00822BB6 /* z_AngularGradient.swift */,
+				5467B49D2565655400822BB6 /* z_BackgroundStyle.swift */,
+				5467B4A22565655600822BB6 /* z_ForegroundStyle.swift */,
+				5467B49C2565655300822BB6 /* z_ImagePaint.swift */,
+				5467B4972565655100822BB6 /* z_LinearGradient.swift */,
+				5467B4922565655000822BB6 /* z_RadialGradient.swift */,
+				5467B4B22565659900822BB6 /* z_SelectionShapeStyle.swift */,
+				5467B4AD2565659800822BB6 /* z_SeparatorShapeStyle.swift */,
+			);
+			path = ShapeStypes;
+			sourceTree = "<group>";
+		};
 		54738F192551B4C000D23741 /* Z - JsonUI */ = {
 			isa = PBXGroup;
 			children = (
@@ -325,9 +383,17 @@
 		5493C1C62544FF7A00AD94F5 /* Z - SwiftUI */ = {
 			isa = PBXGroup;
 			children = (
-				5493C1C72544FF7A00AD94F5 /* _DynaType.swift */,
+				5467B488256564A200822BB6 /* ShapeStypes */,
+				5493C1C72544FF7A00AD94F5 /* y_DynaType.swift */,
+				5467B4C62565673600822BB6 /* z_Angle.swift */,
+				5467B4CD2565674000822BB6 /* z_Binding.swift */,
 				5493C1C92544FF7A00AD94F5 /* z_Color.swift */,
+				5467B4D425659C1500822BB6 /* z_Edge.swift */,
 				5493C1CA2544FF7A00AD94F5 /* z_Font.swift */,
+				5467B4BF2565668300822BB6 /* z_Gradient.swift */,
+				5467B4DC25659C3700822BB6 /* z_LocalizedStringKey.swift */,
+				5467B4DF25659C3B00822BB6 /* z_PinnedScrollableViews.swift */,
+				5467B4D525659C2E00822BB6 /* z_UnitPoint.swift */,
 			);
 			path = "Z - SwiftUI";
 			sourceTree = "<group>";
@@ -501,19 +567,26 @@
 				5493C1E82544FF7A00AD94F5 /* z__PaddingLayout.swift in Sources */,
 				547724E4256423D000C5444F /* y_Shape13178.swift in Sources */,
 				5492CB7C2557790600C5B326 /* z_DatePicker.swift in Sources */,
+				5467B4C72565673600822BB6 /* z_Angle.swift in Sources */,
 				5493C2022544FF7A00AD94F5 /* z_Text.swift in Sources */,
+				5467B4E025659C3B00822BB6 /* z_PinnedScrollableViews.swift in Sources */,
 				54D82F23256211210033169D /* z_Circle.swift in Sources */,
 				54D82F5A256212280033169D /* z_TransformedShape.swift in Sources */,
 				54D82F31256211610033169D /* z_RotatedShape.swift in Sources */,
-				5493C1E02544FF7A00AD94F5 /* _DynaType.swift in Sources */,
+				5493C1E02544FF7A00AD94F5 /* y_DynaType.swift in Sources */,
+				5467B4C02565668300822BB6 /* z_Gradient.swift in Sources */,
 				54B9DF042557703C00A0E5ED /* z_Button.swift in Sources */,
 				540381BA255787A600CF52E3 /* z_Toggle.swift in Sources */,
+				5467B4D725659C2E00822BB6 /* z_UnitPoint.swift in Sources */,
+				5467B4FD2565D00600822BB6 /* z_ImagePaint.swift in Sources */,
+				5467B49E2565655400822BB6 /* z_BackgroundStyle.swift in Sources */,
 				5493C1DC2544FF7A00AD94F5 /* z_Animation.swift in Sources */,
 				54D82F6D2562161C0033169D /* z_ContainerRelativeShape.swift in Sources */,
 				5493C1FC2544FF7A00AD94F5 /* z_LazyVStack.swift in Sources */,
 				5493C1EA2544FF7A00AD94F5 /* z_EmptyView.swift in Sources */,
 				5493C1DE2544FF7A00AD94F5 /* z_Accessibility.swift in Sources */,
 				5493C1F22544FF7A00AD94F5 /* z_HStack.swift in Sources */,
+				5467B4CE2565674000822BB6 /* z_Binding.swift in Sources */,
 				540381C225578BD400CF52E3 /* z_EditButton.swift in Sources */,
 				54D82F67256216190033169D /* z_Ellipse.swift in Sources */,
 				540381D525578C6800CF52E3 /* z_Slider.swift in Sources */,
@@ -523,6 +596,8 @@
 				54D82F39256211640033169D /* z_Path.swift in Sources */,
 				542A5F82254799E500CB7C9F /* y_View19000.swift in Sources */,
 				547E9808253491D800E48BD2 /* UI_TestsApp.swift in Sources */,
+				5467B4B32565659900822BB6 /* z_SelectionShapeStyle.swift in Sources */,
+				5467B4F42565CFC900822BB6 /* z_ForegroundStyle.swift in Sources */,
 				540381D325578C6800CF52E3 /* z_Picker.swift in Sources */,
 				5493C1E22544FF7A00AD94F5 /* z_Json.swift in Sources */,
 				5493C2002544FF7A00AD94F5 /* z_LazyHStack.swift in Sources */,
@@ -530,15 +605,20 @@
 				545F853F254734CD00689264 /* y_View17179.swift in Sources */,
 				540381D725578C6800CF52E3 /* z_Stepper.swift in Sources */,
 				54D82F3F256211650033169D /* z_OffsetShape.swift in Sources */,
+				5467B4932565655000822BB6 /* z_RadialGradient.swift in Sources */,
 				540381C925578BDC00CF52E3 /* z_ContextMenu.swift in Sources */,
 				5493C1EC2544FF7A00AD94F5 /* z_Divider.swift in Sources */,
 				5493C1F82544FF7A00AD94F5 /* z_TupleView.swift in Sources */,
 				5493C1F42544FF7A00AD94F5 /* z_ZStack.swift in Sources */,
+				5467B4AE2565659800822BB6 /* z_SeparatorShapeStyle.swift in Sources */,
 				547724DE2564218200C5444F /* y_InsettableShape8045.swift in Sources */,
+				5467B4EE2565C1C600822BB6 /* z_Edge.swift in Sources */,
 				5493C1E42544FF7A00AD94F5 /* z_Color.swift in Sources */,
 				542A5F8B2547A05200CB7C9F /* y_View20000.swift in Sources */,
 				5493C1FE2544FF7A00AD94F5 /* z_Spacer.swift in Sources */,
 				5493C1F02544FF7A00AD94F5 /* z_VStack.swift in Sources */,
+				5467B48C256564F800822BB6 /* z_AngularGradient.swift in Sources */,
+				5467B4992565655100822BB6 /* z_LinearGradient.swift in Sources */,
 				5493C1FA2544FF7A00AD94F5 /* z_AnyView.swift in Sources */,
 				54D82F73256216260033169D /* z_Rectangle.swift in Sources */,
 				540381DE2557C8E700CF52E3 /* z_ForEach.swift in Sources */,
@@ -560,19 +640,26 @@
 				5493C1E92544FF7A00AD94F5 /* z__PaddingLayout.swift in Sources */,
 				547724E7256423D000C5444F /* y_Shape13178.swift in Sources */,
 				5492CB7F2557790600C5B326 /* z_DatePicker.swift in Sources */,
+				5467B4C82565673600822BB6 /* z_Angle.swift in Sources */,
 				5493C2032544FF7A00AD94F5 /* z_Text.swift in Sources */,
+				5467B4E125659C3B00822BB6 /* z_PinnedScrollableViews.swift in Sources */,
 				54D82F20256211210033169D /* z_Circle.swift in Sources */,
 				54D82F5B256212280033169D /* z_TransformedShape.swift in Sources */,
 				54D82F32256211610033169D /* z_RotatedShape.swift in Sources */,
-				5493C1E12544FF7A00AD94F5 /* _DynaType.swift in Sources */,
+				5493C1E12544FF7A00AD94F5 /* y_DynaType.swift in Sources */,
+				5467B4C12565668300822BB6 /* z_Gradient.swift in Sources */,
 				54B9DF032557703C00A0E5ED /* z_Button.swift in Sources */,
 				540381B7255787A500CF52E3 /* z_Toggle.swift in Sources */,
+				5467B4D625659C2E00822BB6 /* z_UnitPoint.swift in Sources */,
+				5467B4FA2565D00500822BB6 /* z_ImagePaint.swift in Sources */,
+				5467B49F2565655400822BB6 /* z_BackgroundStyle.swift in Sources */,
 				5493C1DD2544FF7A00AD94F5 /* z_Animation.swift in Sources */,
 				54D82F6A2562161C0033169D /* z_ContainerRelativeShape.swift in Sources */,
 				5493C1FD2544FF7A00AD94F5 /* z_LazyVStack.swift in Sources */,
 				5493C1EB2544FF7A00AD94F5 /* z_EmptyView.swift in Sources */,
 				5493C1DF2544FF7A00AD94F5 /* z_Accessibility.swift in Sources */,
 				5493C1F32544FF7A00AD94F5 /* z_HStack.swift in Sources */,
+				5467B4CF2565674000822BB6 /* z_Binding.swift in Sources */,
 				540381C325578BD400CF52E3 /* z_EditButton.swift in Sources */,
 				54D82F64256216190033169D /* z_Ellipse.swift in Sources */,
 				540381D425578C6800CF52E3 /* z_Slider.swift in Sources */,
@@ -582,6 +669,8 @@
 				54D82F3A256211640033169D /* z_Path.swift in Sources */,
 				542A5F85254799E500CB7C9F /* y_View19000.swift in Sources */,
 				549D7C4F253B625F00E70B72 /* UI_TestsApp.swift in Sources */,
+				5467B4B42565659900822BB6 /* z_SelectionShapeStyle.swift in Sources */,
+				5467B4F72565CFCA00822BB6 /* z_ForegroundStyle.swift in Sources */,
 				540381D225578C6800CF52E3 /* z_Picker.swift in Sources */,
 				5493C1E32544FF7A00AD94F5 /* z_Json.swift in Sources */,
 				5493C2012544FF7A00AD94F5 /* z_LazyHStack.swift in Sources */,
@@ -589,15 +678,20 @@
 				545F853E254734CD00689264 /* y_View17179.swift in Sources */,
 				540381D625578C6800CF52E3 /* z_Stepper.swift in Sources */,
 				54D82F3E256211650033169D /* z_OffsetShape.swift in Sources */,
+				5467B4942565655000822BB6 /* z_RadialGradient.swift in Sources */,
 				540381CA25578BDC00CF52E3 /* z_ContextMenu.swift in Sources */,
 				5493C1ED2544FF7A00AD94F5 /* z_Divider.swift in Sources */,
 				5493C1F92544FF7A00AD94F5 /* z_TupleView.swift in Sources */,
 				5493C1F52544FF7A00AD94F5 /* z_ZStack.swift in Sources */,
+				5467B4AF2565659800822BB6 /* z_SeparatorShapeStyle.swift in Sources */,
 				547724DB2564218200C5444F /* y_InsettableShape8045.swift in Sources */,
+				5467B4F12565C1C700822BB6 /* z_Edge.swift in Sources */,
 				5493C1E52544FF7A00AD94F5 /* z_Color.swift in Sources */,
 				542A5F882547A05200CB7C9F /* y_View20000.swift in Sources */,
 				5493C1FF2544FF7A00AD94F5 /* z_Spacer.swift in Sources */,
 				5493C1F12544FF7A00AD94F5 /* z_VStack.swift in Sources */,
+				5467B48F256564F900822BB6 /* z_AngularGradient.swift in Sources */,
+				5467B4982565655100822BB6 /* z_LinearGradient.swift in Sources */,
 				5493C1FB2544FF7A00AD94F5 /* z_AnyView.swift in Sources */,
 				54D82F70256216260033169D /* z_Rectangle.swift in Sources */,
 				540381DD2557C8E700CF52E3 /* z_ForEach.swift in Sources */,

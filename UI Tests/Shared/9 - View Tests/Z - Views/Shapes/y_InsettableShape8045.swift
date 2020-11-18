@@ -7,12 +7,11 @@ struct y_InsettableShape8045: View {
             Text("InsettableShape8045")
             VStack {
                 Text("")
-                Capsule().strokeBorder(style: StrokeStyle(), antialiased: false)
                 // MARK: - :8055
-//                Capsule().strokeBorder(Color.blue, style: StrokeStyle(), antialiased: true)
-//                Capsule().strokeBorder(style: StrokeStyle(), antialiased: true)
-//                Capsule().strokeBorder(Color.blue, lineWidth: 1, antialiased: true)
-//                Capsule().strokeBorder(lineWidth: 1, antialiased: true)
+                Capsule().strokeBorder(Color.blue, style: StrokeStyle(), antialiased: true)
+                Capsule().strokeBorder(style: StrokeStyle(), antialiased: true)
+                Capsule().strokeBorder(Color.blue, lineWidth: 3, antialiased: true)
+                Capsule().strokeBorder(lineWidth: 1, antialiased: true)
             }
         }
     }
