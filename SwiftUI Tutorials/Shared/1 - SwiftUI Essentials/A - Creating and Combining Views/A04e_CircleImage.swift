@@ -2,6 +2,8 @@ import SwiftUI
 import SwiftUIJson
 
 struct A04e_CircleImage: View {
+    var base = BaseView(Self.self)
+
     var body: some View {
         Image("turtlerock")
             .clipShape(Circle())
@@ -17,4 +19,9 @@ struct A04e_CircleImage_Previews: PreviewProvider {
             A04e_CircleImage()
         }
     }
+}
+
+extension A04e_CircleImage: JsonView {
+    public init(from decoder: Decoder, for dynaType: DynaType) throws { self.init() }
+    public func encode(to encoder: Encoder) throws {}
 }

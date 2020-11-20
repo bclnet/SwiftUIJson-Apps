@@ -1,4 +1,5 @@
 import SwiftUI
+import SwiftUIJson
 
 struct B08c_LandmarkList: View {
     var body: some View {
@@ -16,9 +17,11 @@ struct B08c_LandmarkList: View {
 struct B08c_LandmarkList_Previews: PreviewProvider {
     static var previews: some View {
         ForEach(["iPhone SE", "iPhone XS Max"], id: \.self) { deviceName in
-            B08c_LandmarkList()
-                .previewDevice(PreviewDevice(rawValue: deviceName))
-                .previewDisplayName(deviceName)
+            JsonPreview {
+                B08c_LandmarkList()
+                    .previewDevice(PreviewDevice(rawValue: deviceName))
+                    .previewDisplayName(deviceName)
+            }
         }
     }
 }

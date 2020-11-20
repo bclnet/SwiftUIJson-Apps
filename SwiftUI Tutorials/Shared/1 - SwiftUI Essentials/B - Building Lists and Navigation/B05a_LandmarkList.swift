@@ -1,4 +1,5 @@
 import SwiftUI
+import SwiftUIJson
 
 struct B05a_LandmarkList: View {
     var body: some View {
@@ -10,6 +11,8 @@ struct B05a_LandmarkList: View {
 
 struct B05a_LandmarkList_Previews: PreviewProvider {
     static var previews: some View {
-        B05a_LandmarkList()
+        JsonPreview {
+            B05a_LandmarkList()
+        }
     }
 }

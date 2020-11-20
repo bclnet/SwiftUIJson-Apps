@@ -1,4 +1,5 @@
 import SwiftUI
+import SwiftUIJson
 
 struct B07a_CircleImage: View {
     var image: Image
@@ -13,6 +14,8 @@ struct B07a_CircleImage: View {
 
 struct B07a_CircleImage_Previews: PreviewProvider {
     static var previews: some View {
-        B07a_CircleImage(image: Image("turtlerock"))
+        JsonPreview {
+            B07a_CircleImage(image: Image("turtlerock"))
+        }
     }
 }

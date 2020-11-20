@@ -3,6 +3,8 @@ import SwiftUIJson
 import MapKit
 
 struct A05_MapView: UIViewRepresentable {
+    var base = BaseView(Self.self)
+    
     func makeUIView(context: Context) -> MKMapView {
         MKMapView(frame: .zero)
     }
@@ -22,4 +24,9 @@ struct A05_MapView_Previews: PreviewProvider {
             A05_MapView()
         }
     }
+}
+
+extension A05_MapView: JsonView {
+    public init(from decoder: Decoder, for dynaType: DynaType) throws { self.init() }
+    public func encode(to encoder: Encoder) throws {}
 }

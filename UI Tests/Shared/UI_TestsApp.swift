@@ -61,7 +61,7 @@ import SwiftUIJson
 //typealias ContentView = z_UnitPoint
 
 // MARK: - Views:Shapes
-typealias ContentView = y_InsettableShape8045
+//typealias ContentView = y_InsettableShape8045
 //typealias ContentView = y_Shape13178
 //typealias ContentView = z_Capsule
 //typealias ContentView = z_Circle
@@ -82,9 +82,9 @@ typealias ContentView = y_InsettableShape8045
 //typealias ContentView = z_TupleView
 // MARK: - Views
 //typealias ContentView = y_View //: (Refactor out)
-//typealias ContentView = y_View17175 //: (Incomplete)
+//typealias ContentView = y_View17179 //: (Incomplete)
 //typealias ContentView = y_View18000 //: (Incomplete)
-//typealias ContentView = y_View19000 //: (Incomplete)
+typealias ContentView = y_View19000 //: (Incomplete)
 //typealias ContentView = y_View20000 //: (Incomplete)
 //typealias ContentView = y_View21000 //: (Incomplete)
 //typealias ContentView = z_Button
