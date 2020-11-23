@@ -8,32 +8,19 @@
 
 /* Begin PBXBuildFile section */
 		540381B7255787A500CF52E3 /* z_Toggle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54B9DF012557703A00A0E5ED /* z_Toggle.swift */; };
-		540381BA255787A600CF52E3 /* z_Toggle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54B9DF012557703A00A0E5ED /* z_Toggle.swift */; };
-		540381C225578BD400CF52E3 /* z_EditButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 540381C125578BD400CF52E3 /* z_EditButton.swift */; };
 		540381C325578BD400CF52E3 /* z_EditButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 540381C125578BD400CF52E3 /* z_EditButton.swift */; };
-		540381C925578BDC00CF52E3 /* z_ContextMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 540381C825578BDC00CF52E3 /* z_ContextMenu.swift */; };
 		540381CA25578BDC00CF52E3 /* z_ContextMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 540381C825578BDC00CF52E3 /* z_ContextMenu.swift */; };
 		540381D225578C6800CF52E3 /* z_Picker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 540381C725578BDA00CF52E3 /* z_Picker.swift */; };
-		540381D325578C6800CF52E3 /* z_Picker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 540381C725578BDA00CF52E3 /* z_Picker.swift */; };
 		540381D425578C6800CF52E3 /* z_Slider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 540381C625578BD900CF52E3 /* z_Slider.swift */; };
-		540381D525578C6800CF52E3 /* z_Slider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 540381C625578BD900CF52E3 /* z_Slider.swift */; };
 		540381D625578C6800CF52E3 /* z_Stepper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 540381D125578C6000CF52E3 /* z_Stepper.swift */; };
-		540381D725578C6800CF52E3 /* z_Stepper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 540381D125578C6000CF52E3 /* z_Stepper.swift */; };
 		540381DD2557C8E700CF52E3 /* z_ForEach.swift in Sources */ = {isa = PBXBuildFile; fileRef = 540381DC2557C8E700CF52E3 /* z_ForEach.swift */; };
-		540381DE2557C8E700CF52E3 /* z_ForEach.swift in Sources */ = {isa = PBXBuildFile; fileRef = 540381DC2557C8E700CF52E3 /* z_ForEach.swift */; };
 		54125F42254729FD004124D3 /* y_View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54125F41254729FD004124D3 /* y_View.swift */; };
-		54125F43254729FD004124D3 /* y_View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54125F41254729FD004124D3 /* y_View.swift */; };
-		542A5F82254799E500CB7C9F /* y_View19000.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54125F3E254729FA004124D3 /* y_View19000.swift */; };
 		542A5F85254799E500CB7C9F /* y_View19000.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54125F3E254729FA004124D3 /* y_View19000.swift */; };
 		542A5F882547A05200CB7C9F /* y_View20000.swift in Sources */ = {isa = PBXBuildFile; fileRef = 545F851925472BAE00689264 /* y_View20000.swift */; };
-		542A5F8B2547A05200CB7C9F /* y_View20000.swift in Sources */ = {isa = PBXBuildFile; fileRef = 545F851925472BAE00689264 /* y_View20000.swift */; };
 		542A5F8E2547A97800CB7C9F /* y_View21000.swift in Sources */ = {isa = PBXBuildFile; fileRef = 545F852025472BB500689264 /* y_View21000.swift */; };
-		542A5F912547A97900CB7C9F /* y_View21000.swift in Sources */ = {isa = PBXBuildFile; fileRef = 545F852025472BB500689264 /* y_View21000.swift */; };
 		542B620F254DB75C004859D1 /* y_ViewModifier22342.swift in Sources */ = {isa = PBXBuildFile; fileRef = 542B620E254DB75C004859D1 /* y_ViewModifier22342.swift */; };
 		542B6210254DB75C004859D1 /* y_ViewModifier22342.swift in Sources */ = {isa = PBXBuildFile; fileRef = 542B620E254DB75C004859D1 /* y_ViewModifier22342.swift */; };
 		545F853E254734CD00689264 /* y_View17179.swift in Sources */ = {isa = PBXBuildFile; fileRef = 545F853D254734CD00689264 /* y_View17179.swift */; };
-		545F853F254734CD00689264 /* y_View17179.swift in Sources */ = {isa = PBXBuildFile; fileRef = 545F853D254734CD00689264 /* y_View17179.swift */; };
-		545F8548254739AD00689264 /* y_View18000.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54125F39254729F8004124D3 /* y_View18000.swift */; };
 		545F854B254739AD00689264 /* y_View18000.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54125F39254729F8004124D3 /* y_View18000.swift */; };
 		5467B48C256564F800822BB6 /* z_AngularGradient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5467B489256564AD00822BB6 /* z_AngularGradient.swift */; };
 		5467B48F256564F900822BB6 /* z_AngularGradient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5467B489256564AD00822BB6 /* z_AngularGradient.swift */; };
@@ -76,7 +63,6 @@
 		547E980D253491D800E48BD2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 547E97F7253491D800E48BD2 /* Assets.xcassets */; };
 		547E98302534922500E48BD2 /* SwiftUIJson in Frameworks */ = {isa = PBXBuildFile; productRef = 547E982F2534922500E48BD2 /* SwiftUIJson */; };
 		547E98322534922B00E48BD2 /* SwiftUIJson in Frameworks */ = {isa = PBXBuildFile; productRef = 547E98312534922B00E48BD2 /* SwiftUIJson */; };
-		5492CB7C2557790600C5B326 /* z_DatePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54B9DF002557703700A0E5ED /* z_DatePicker.swift */; };
 		5492CB7F2557790600C5B326 /* z_DatePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54B9DF002557703700A0E5ED /* z_DatePicker.swift */; };
 		5493C1DC2544FF7A00AD94F5 /* z_Animation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5493C1C42544FF7A00AD94F5 /* z_Animation.swift */; };
 		5493C1DD2544FF7A00AD94F5 /* z_Animation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5493C1C42544FF7A00AD94F5 /* z_Animation.swift */; };
@@ -92,17 +78,11 @@
 		5493C1E72544FF7A00AD94F5 /* z_Font.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5493C1CA2544FF7A00AD94F5 /* z_Font.swift */; };
 		5493C1E82544FF7A00AD94F5 /* z__PaddingLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5493C1CC2544FF7A00AD94F5 /* z__PaddingLayout.swift */; };
 		5493C1E92544FF7A00AD94F5 /* z__PaddingLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5493C1CC2544FF7A00AD94F5 /* z__PaddingLayout.swift */; };
-		5493C1EA2544FF7A00AD94F5 /* z_EmptyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5493C1CE2544FF7A00AD94F5 /* z_EmptyView.swift */; };
 		5493C1EB2544FF7A00AD94F5 /* z_EmptyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5493C1CE2544FF7A00AD94F5 /* z_EmptyView.swift */; };
-		5493C1EC2544FF7A00AD94F5 /* z_Divider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5493C1CF2544FF7A00AD94F5 /* z_Divider.swift */; };
 		5493C1ED2544FF7A00AD94F5 /* z_Divider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5493C1CF2544FF7A00AD94F5 /* z_Divider.swift */; };
-		5493C1EE2544FF7A00AD94F5 /* z_Image.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5493C1D02544FF7A00AD94F5 /* z_Image.swift */; };
 		5493C1EF2544FF7A00AD94F5 /* z_Image.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5493C1D02544FF7A00AD94F5 /* z_Image.swift */; };
-		5493C1F02544FF7A00AD94F5 /* z_VStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5493C1D12544FF7A00AD94F5 /* z_VStack.swift */; };
 		5493C1F12544FF7A00AD94F5 /* z_VStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5493C1D12544FF7A00AD94F5 /* z_VStack.swift */; };
-		5493C1F22544FF7A00AD94F5 /* z_HStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5493C1D22544FF7A00AD94F5 /* z_HStack.swift */; };
 		5493C1F32544FF7A00AD94F5 /* z_HStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5493C1D22544FF7A00AD94F5 /* z_HStack.swift */; };
-		5493C1F42544FF7A00AD94F5 /* z_ZStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5493C1D32544FF7A00AD94F5 /* z_ZStack.swift */; };
 		5493C1F52544FF7A00AD94F5 /* z_ZStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5493C1D32544FF7A00AD94F5 /* z_ZStack.swift */; };
 		5493C1F62544FF7A00AD94F5 /* z__ConditionalContent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5493C1D52544FF7A00AD94F5 /* z__ConditionalContent.swift */; };
 		5493C1F72544FF7A00AD94F5 /* z__ConditionalContent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5493C1D52544FF7A00AD94F5 /* z__ConditionalContent.swift */; };
@@ -110,17 +90,12 @@
 		5493C1F92544FF7A00AD94F5 /* z_TupleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5493C1D62544FF7A00AD94F5 /* z_TupleView.swift */; };
 		5493C1FA2544FF7A00AD94F5 /* z_AnyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5493C1D72544FF7A00AD94F5 /* z_AnyView.swift */; };
 		5493C1FB2544FF7A00AD94F5 /* z_AnyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5493C1D72544FF7A00AD94F5 /* z_AnyView.swift */; };
-		5493C1FC2544FF7A00AD94F5 /* z_LazyVStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5493C1D82544FF7A00AD94F5 /* z_LazyVStack.swift */; };
 		5493C1FD2544FF7A00AD94F5 /* z_LazyVStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5493C1D82544FF7A00AD94F5 /* z_LazyVStack.swift */; };
-		5493C1FE2544FF7A00AD94F5 /* z_Spacer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5493C1D92544FF7A00AD94F5 /* z_Spacer.swift */; };
 		5493C1FF2544FF7A00AD94F5 /* z_Spacer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5493C1D92544FF7A00AD94F5 /* z_Spacer.swift */; };
-		5493C2002544FF7A00AD94F5 /* z_LazyHStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5493C1DA2544FF7A00AD94F5 /* z_LazyHStack.swift */; };
 		5493C2012544FF7A00AD94F5 /* z_LazyHStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5493C1DA2544FF7A00AD94F5 /* z_LazyHStack.swift */; };
-		5493C2022544FF7A00AD94F5 /* z_Text.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5493C1DB2544FF7A00AD94F5 /* z_Text.swift */; };
 		5493C2032544FF7A00AD94F5 /* z_Text.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5493C1DB2544FF7A00AD94F5 /* z_Text.swift */; };
 		549D7C4F253B625F00E70B72 /* UI_TestsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 547E97F5253491D700E48BD2 /* UI_TestsApp.swift */; };
 		54B9DF032557703C00A0E5ED /* z_Button.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54B9DF022557703C00A0E5ED /* z_Button.swift */; };
-		54B9DF042557703C00A0E5ED /* z_Button.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54B9DF022557703C00A0E5ED /* z_Button.swift */; };
 		54D82F20256211210033169D /* z_Circle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54738F212551B61400D23741 /* z_Circle.swift */; };
 		54D82F23256211210033169D /* z_Circle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54738F212551B61400D23741 /* z_Circle.swift */; };
 		54D82F27256211280033169D /* z_RoundedRectangle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54D82F26256211280033169D /* z_RoundedRectangle.swift */; };
@@ -143,6 +118,69 @@
 		54D82F6D2562161C0033169D /* z_ContainerRelativeShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54D82F45256211680033169D /* z_ContainerRelativeShape.swift */; };
 		54D82F70256216260033169D /* z_Rectangle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54D82F35256211620033169D /* z_Rectangle.swift */; };
 		54D82F73256216260033169D /* z_Rectangle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54D82F35256211620033169D /* z_Rectangle.swift */; };
+		54D8E0E9256AE1D100050BC1 /* z_GeometryReader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54D8E0E8256AE1D100050BC1 /* z_GeometryReader.swift */; };
+		54D8E0F7256B013200050BC1 /* z_EquatableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54D8E0F5256B013200050BC1 /* z_EquatableView.swift */; };
+		54D8E0FF256B018900050BC1 /* z_Form.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54D8E0FE256B018900050BC1 /* z_Form.swift */; };
+		54D8E109256B033800050BC1 /* z_Section.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54D8E107256B033800050BC1 /* z_Section.swift */; };
+		54D8E10E256B033A00050BC1 /* z_SecureField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54D8E10C256B033A00050BC1 /* z_SecureField.swift */; };
+		54D8E11B256B049900050BC1 /* z_ScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54D8E117256B045E00050BC1 /* z_ScrollView.swift */; };
+		54D8E124256B323F00050BC1 /* z_GroupBox.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54D8E122256B323F00050BC1 /* z_GroupBox.swift */; };
+		54D8E129256B324000050BC1 /* z_Group.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54D8E127256B324000050BC1 /* z_Group.swift */; };
+		54D8E131256B33AD00050BC1 /* z_VSplitView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54D8E130256B33AD00050BC1 /* z_VSplitView.swift */; };
+		54D8E13A256B33D300050BC1 /* z_SubscriptionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54D8E138256B33D300050BC1 /* z_SubscriptionView.swift */; };
+		54D8E13F256B33D500050BC1 /* z_NavigationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54D8E13E256B33D500050BC1 /* z_NavigationView.swift */; };
+		54D8E143256B33D600050BC1 /* z_NavigationLink.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54D8E141256B33D600050BC1 /* z_NavigationLink.swift */; };
+		54D8E154256B345800050BC1 /* z_List.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54D8E152256B345800050BC1 /* z_List.swift */; };
+		54D8E16B256B34DB00050BC1 /* z_Text.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5493C1DB2544FF7A00AD94F5 /* z_Text.swift */; };
+		54D8E16C256B34DB00050BC1 /* z_TextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54D8E136256B33D100050BC1 /* z_TextField.swift */; };
+		54D8E16D256B34DB00050BC1 /* z_EquatableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54D8E0F5256B013200050BC1 /* z_EquatableView.swift */; };
+		54D8E16E256B34DB00050BC1 /* z_Button.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54B9DF022557703C00A0E5ED /* z_Button.swift */; };
+		54D8E16F256B34DB00050BC1 /* z_ContextMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 540381C825578BDC00CF52E3 /* z_ContextMenu.swift */; };
+		54D8E170256B34DB00050BC1 /* z_Group.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54D8E127256B324000050BC1 /* z_Group.swift */; };
+		54D8E171256B34DB00050BC1 /* z_Divider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5493C1CF2544FF7A00AD94F5 /* z_Divider.swift */; };
+		54D8E172256B34DB00050BC1 /* z_Image.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5493C1D02544FF7A00AD94F5 /* z_Image.swift */; };
+		54D8E173256B34DB00050BC1 /* z_List.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54D8E152256B345800050BC1 /* z_List.swift */; };
+		54D8E174256B34DB00050BC1 /* z_TouchBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54D8E135256B33CF00050BC1 /* z_TouchBar.swift */; };
+		54D8E175256B34DB00050BC1 /* z_HSplitView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54D8E121256B323D00050BC1 /* z_HSplitView.swift */; };
+		54D8E176256B34DB00050BC1 /* y_View21000.swift in Sources */ = {isa = PBXBuildFile; fileRef = 545F852025472BB500689264 /* y_View21000.swift */; };
+		54D8E177256B34DB00050BC1 /* z_LazyHStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5493C1DA2544FF7A00AD94F5 /* z_LazyHStack.swift */; };
+		54D8E178256B34DB00050BC1 /* z_NavigationLink.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54D8E141256B33D600050BC1 /* z_NavigationLink.swift */; };
+		54D8E179256B34DB00050BC1 /* z_MenuButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54D8E14C256B344C00050BC1 /* z_MenuButton.swift */; };
+		54D8E17A256B34DB00050BC1 /* z_ScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54D8E117256B045E00050BC1 /* z_ScrollView.swift */; };
+		54D8E17B256B34DB00050BC1 /* z_Slider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 540381C625578BD900CF52E3 /* z_Slider.swift */; };
+		54D8E17C256B34DB00050BC1 /* z_EmptyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5493C1CE2544FF7A00AD94F5 /* z_EmptyView.swift */; };
+		54D8E17D256B34DB00050BC1 /* z_ForEach.swift in Sources */ = {isa = PBXBuildFile; fileRef = 540381DC2557C8E700CF52E3 /* z_ForEach.swift */; };
+		54D8E17E256B34DB00050BC1 /* y_View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54125F41254729FD004124D3 /* y_View.swift */; };
+		54D8E17F256B34DB00050BC1 /* z_VStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5493C1D12544FF7A00AD94F5 /* z_VStack.swift */; };
+		54D8E180256B34DB00050BC1 /* z_Form.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54D8E0FE256B018900050BC1 /* z_Form.swift */; };
+		54D8E181256B34DB00050BC1 /* z_DatePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54B9DF002557703700A0E5ED /* z_DatePicker.swift */; };
+		54D8E182256B34DB00050BC1 /* z_TabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54D8E137256B33D200050BC1 /* z_TabView.swift */; };
+		54D8E183256B34DB00050BC1 /* z_HStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5493C1D22544FF7A00AD94F5 /* z_HStack.swift */; };
+		54D8E184256B34DB00050BC1 /* y_View17179.swift in Sources */ = {isa = PBXBuildFile; fileRef = 545F853D254734CD00689264 /* y_View17179.swift */; };
+		54D8E185256B34DB00050BC1 /* z_Picker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 540381C725578BDA00CF52E3 /* z_Picker.swift */; };
+		54D8E186256B34DB00050BC1 /* z_LazyVStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5493C1D82544FF7A00AD94F5 /* z_LazyVStack.swift */; };
+		54D8E187256B34DB00050BC1 /* y_View20000.swift in Sources */ = {isa = PBXBuildFile; fileRef = 545F851925472BAE00689264 /* y_View20000.swift */; };
+		54D8E188256B34DB00050BC1 /* z_EditButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 540381C125578BD400CF52E3 /* z_EditButton.swift */; };
+		54D8E189256B34DB00050BC1 /* z_GeometryReader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54D8E0E8256AE1D100050BC1 /* z_GeometryReader.swift */; };
+		54D8E18A256B34DB00050BC1 /* z_VSplitView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54D8E130256B33AD00050BC1 /* z_VSplitView.swift */; };
+		54D8E18B256B34DB00050BC1 /* z_SecureField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54D8E10C256B033A00050BC1 /* z_SecureField.swift */; };
+		54D8E18C256B34DB00050BC1 /* y_View18000.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54125F39254729F8004124D3 /* y_View18000.swift */; };
+		54D8E18D256B34DB00050BC1 /* z_NavigationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54D8E13E256B33D500050BC1 /* z_NavigationView.swift */; };
+		54D8E18E256B34DB00050BC1 /* z_PasteButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54D8E13D256B33D400050BC1 /* z_PasteButton.swift */; };
+		54D8E18F256B34DB00050BC1 /* z_GroupBox.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54D8E122256B323F00050BC1 /* z_GroupBox.swift */; };
+		54D8E190256B34DB00050BC1 /* z_SubscriptionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54D8E138256B33D300050BC1 /* z_SubscriptionView.swift */; };
+		54D8E191256B34DB00050BC1 /* z_Spacer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5493C1D92544FF7A00AD94F5 /* z_Spacer.swift */; };
+		54D8E192256B34DB00050BC1 /* y_View19000.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54125F3E254729FA004124D3 /* y_View19000.swift */; };
+		54D8E193256B34DB00050BC1 /* z_Stepper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 540381D125578C6000CF52E3 /* z_Stepper.swift */; };
+		54D8E194256B34DB00050BC1 /* z_ZStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5493C1D32544FF7A00AD94F5 /* z_ZStack.swift */; };
+		54D8E195256B34DB00050BC1 /* z_Toggle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54B9DF012557703A00A0E5ED /* z_Toggle.swift */; };
+		54D8E196256B34DB00050BC1 /* z_Section.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54D8E107256B033800050BC1 /* z_Section.swift */; };
+		54D8E197256B34DC00050BC1 /* z_TextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54D8E136256B33D100050BC1 /* z_TextField.swift */; };
+		54D8E198256B34DC00050BC1 /* z_TouchBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54D8E135256B33CF00050BC1 /* z_TouchBar.swift */; };
+		54D8E199256B34DC00050BC1 /* z_HSplitView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54D8E121256B323D00050BC1 /* z_HSplitView.swift */; };
+		54D8E19A256B34DC00050BC1 /* z_MenuButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54D8E14C256B344C00050BC1 /* z_MenuButton.swift */; };
+		54D8E19B256B34DC00050BC1 /* z_TabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54D8E137256B33D200050BC1 /* z_TabView.swift */; };
+		54D8E19C256B34DC00050BC1 /* z_PasteButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54D8E13D256B33D400050BC1 /* z_PasteButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -222,6 +260,26 @@
 		54D82F45256211680033169D /* z_ContainerRelativeShape.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = z_ContainerRelativeShape.swift; sourceTree = "<group>"; };
 		54D82F48256211690033169D /* z_Capsule.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = z_Capsule.swift; sourceTree = "<group>"; };
 		54D82F59256212280033169D /* z_TransformedShape.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = z_TransformedShape.swift; sourceTree = "<group>"; };
+		54D8E0E8256AE1D100050BC1 /* z_GeometryReader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = z_GeometryReader.swift; sourceTree = "<group>"; };
+		54D8E0F5256B013200050BC1 /* z_EquatableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = z_EquatableView.swift; sourceTree = "<group>"; };
+		54D8E0FE256B018900050BC1 /* z_Form.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = z_Form.swift; sourceTree = "<group>"; };
+		54D8E107256B033800050BC1 /* z_Section.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = z_Section.swift; sourceTree = "<group>"; };
+		54D8E10C256B033A00050BC1 /* z_SecureField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = z_SecureField.swift; sourceTree = "<group>"; };
+		54D8E117256B045E00050BC1 /* z_ScrollView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = z_ScrollView.swift; sourceTree = "<group>"; };
+		54D8E11E256B082900050BC1 /* z_Axis.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = z_Axis.swift; sourceTree = "<group>"; };
+		54D8E121256B323D00050BC1 /* z_HSplitView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = z_HSplitView.swift; sourceTree = "<group>"; };
+		54D8E122256B323F00050BC1 /* z_GroupBox.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = z_GroupBox.swift; sourceTree = "<group>"; };
+		54D8E127256B324000050BC1 /* z_Group.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = z_Group.swift; sourceTree = "<group>"; };
+		54D8E130256B33AD00050BC1 /* z_VSplitView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = z_VSplitView.swift; sourceTree = "<group>"; };
+		54D8E135256B33CF00050BC1 /* z_TouchBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = z_TouchBar.swift; sourceTree = "<group>"; };
+		54D8E136256B33D100050BC1 /* z_TextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = z_TextField.swift; sourceTree = "<group>"; };
+		54D8E137256B33D200050BC1 /* z_TabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = z_TabView.swift; sourceTree = "<group>"; };
+		54D8E138256B33D300050BC1 /* z_SubscriptionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = z_SubscriptionView.swift; sourceTree = "<group>"; };
+		54D8E13D256B33D400050BC1 /* z_PasteButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = z_PasteButton.swift; sourceTree = "<group>"; };
+		54D8E13E256B33D500050BC1 /* z_NavigationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = z_NavigationView.swift; sourceTree = "<group>"; };
+		54D8E141256B33D600050BC1 /* z_NavigationLink.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = z_NavigationLink.swift; sourceTree = "<group>"; };
+		54D8E14C256B344C00050BC1 /* z_MenuButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = z_MenuButton.swift; sourceTree = "<group>"; };
+		54D8E152256B345800050BC1 /* z_List.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = z_List.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -387,6 +445,7 @@
 				5467B488256564A200822BB6 /* ShapeStypes */,
 				5493C1C72544FF7A00AD94F5 /* y_DynaType.swift */,
 				5467B4C62565673600822BB6 /* z_Angle.swift */,
+				54D8E11E256B082900050BC1 /* z_Axis.swift */,
 				5467B4CD2565674000822BB6 /* z_Binding.swift */,
 				5493C1C92544FF7A00AD94F5 /* z_Color.swift */,
 				5467B4D425659C1500822BB6 /* z_Edge.swift */,
@@ -428,17 +487,36 @@
 				5493C1CF2544FF7A00AD94F5 /* z_Divider.swift */,
 				540381C125578BD400CF52E3 /* z_EditButton.swift */,
 				5493C1CE2544FF7A00AD94F5 /* z_EmptyView.swift */,
+				54D8E0F5256B013200050BC1 /* z_EquatableView.swift */,
 				540381DC2557C8E700CF52E3 /* z_ForEach.swift */,
+				54D8E0FE256B018900050BC1 /* z_Form.swift */,
+				54D8E0E8256AE1D100050BC1 /* z_GeometryReader.swift */,
+				54D8E127256B324000050BC1 /* z_Group.swift */,
+				54D8E122256B323F00050BC1 /* z_GroupBox.swift */,
+				54D8E121256B323D00050BC1 /* z_HSplitView.swift */,
 				5493C1D22544FF7A00AD94F5 /* z_HStack.swift */,
 				5493C1D02544FF7A00AD94F5 /* z_Image.swift */,
 				5493C1DA2544FF7A00AD94F5 /* z_LazyHStack.swift */,
 				5493C1D82544FF7A00AD94F5 /* z_LazyVStack.swift */,
+				54D8E152256B345800050BC1 /* z_List.swift */,
+				54D8E14C256B344C00050BC1 /* z_MenuButton.swift */,
+				54D8E141256B33D600050BC1 /* z_NavigationLink.swift */,
+				54D8E13E256B33D500050BC1 /* z_NavigationView.swift */,
+				54D8E13D256B33D400050BC1 /* z_PasteButton.swift */,
 				540381C725578BDA00CF52E3 /* z_Picker.swift */,
+				54D8E117256B045E00050BC1 /* z_ScrollView.swift */,
+				54D8E107256B033800050BC1 /* z_Section.swift */,
+				54D8E10C256B033A00050BC1 /* z_SecureField.swift */,
 				540381C625578BD900CF52E3 /* z_Slider.swift */,
 				5493C1D92544FF7A00AD94F5 /* z_Spacer.swift */,
 				540381D125578C6000CF52E3 /* z_Stepper.swift */,
+				54D8E138256B33D300050BC1 /* z_SubscriptionView.swift */,
+				54D8E137256B33D200050BC1 /* z_TabView.swift */,
 				5493C1DB2544FF7A00AD94F5 /* z_Text.swift */,
+				54D8E136256B33D100050BC1 /* z_TextField.swift */,
 				54B9DF012557703A00A0E5ED /* z_Toggle.swift */,
+				54D8E135256B33CF00050BC1 /* z_TouchBar.swift */,
+				54D8E130256B33AD00050BC1 /* z_VSplitView.swift */,
 				5493C1D12544FF7A00AD94F5 /* z_VStack.swift */,
 				5493C1D32544FF7A00AD94F5 /* z_ZStack.swift */,
 			);
@@ -558,71 +636,90 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				545F8548254739AD00689264 /* y_View18000.swift in Sources */,
+				54D8E191256B34DB00050BC1 /* z_Spacer.swift in Sources */,
 				54D82F2C256211600033169D /* z_ScaledShape.swift in Sources */,
 				547E980A253491D800E48BD2 /* TestView.swift in Sources */,
-				5493C1EE2544FF7A00AD94F5 /* z_Image.swift in Sources */,
 				542B6210254DB75C004859D1 /* y_ViewModifier22342.swift in Sources */,
 				5493C1F62544FF7A00AD94F5 /* z__ConditionalContent.swift in Sources */,
-				542A5F912547A97900CB7C9F /* y_View21000.swift in Sources */,
 				5493C1E82544FF7A00AD94F5 /* z__PaddingLayout.swift in Sources */,
+				54D8E18D256B34DB00050BC1 /* z_NavigationView.swift in Sources */,
+				54D8E17B256B34DB00050BC1 /* z_Slider.swift in Sources */,
+				54D8E170256B34DB00050BC1 /* z_Group.swift in Sources */,
 				547724E4256423D000C5444F /* y_Shape13178.swift in Sources */,
-				5492CB7C2557790600C5B326 /* z_DatePicker.swift in Sources */,
 				5467B4C72565673600822BB6 /* z_Angle.swift in Sources */,
-				5493C2022544FF7A00AD94F5 /* z_Text.swift in Sources */,
 				5467B4E025659C3B00822BB6 /* z_PinnedScrollableViews.swift in Sources */,
 				54D82F23256211210033169D /* z_Circle.swift in Sources */,
+				54D8E171256B34DB00050BC1 /* z_Divider.swift in Sources */,
+				54D8E16E256B34DB00050BC1 /* z_Button.swift in Sources */,
+				54D8E187256B34DB00050BC1 /* y_View20000.swift in Sources */,
 				54D82F5A256212280033169D /* z_TransformedShape.swift in Sources */,
 				54D82F31256211610033169D /* z_RotatedShape.swift in Sources */,
 				5493C1E02544FF7A00AD94F5 /* y_DynaType.swift in Sources */,
 				5467B4C02565668300822BB6 /* z_Gradient.swift in Sources */,
-				54B9DF042557703C00A0E5ED /* z_Button.swift in Sources */,
-				540381BA255787A600CF52E3 /* z_Toggle.swift in Sources */,
 				5467B4D725659C2E00822BB6 /* z_UnitPoint.swift in Sources */,
+				54D8E176256B34DB00050BC1 /* y_View21000.swift in Sources */,
+				54D8E17A256B34DB00050BC1 /* z_ScrollView.swift in Sources */,
 				5467B4FD2565D00600822BB6 /* z_ImagePaint.swift in Sources */,
 				5467B49E2565655400822BB6 /* z_BackgroundStyle.swift in Sources */,
+				54D8E17E256B34DB00050BC1 /* y_View.swift in Sources */,
 				5493C1DC2544FF7A00AD94F5 /* z_Animation.swift in Sources */,
+				54D8E188256B34DB00050BC1 /* z_EditButton.swift in Sources */,
+				54D8E185256B34DB00050BC1 /* z_Picker.swift in Sources */,
+				54D8E192256B34DB00050BC1 /* y_View19000.swift in Sources */,
+				54D8E18F256B34DB00050BC1 /* z_GroupBox.swift in Sources */,
 				54D82F6D2562161C0033169D /* z_ContainerRelativeShape.swift in Sources */,
-				5493C1FC2544FF7A00AD94F5 /* z_LazyVStack.swift in Sources */,
-				5493C1EA2544FF7A00AD94F5 /* z_EmptyView.swift in Sources */,
 				5493C1DE2544FF7A00AD94F5 /* z_Accessibility.swift in Sources */,
-				5493C1F22544FF7A00AD94F5 /* z_HStack.swift in Sources */,
+				54D8E179256B34DB00050BC1 /* z_MenuButton.swift in Sources */,
+				54D8E194256B34DB00050BC1 /* z_ZStack.swift in Sources */,
 				5467B4CE2565674000822BB6 /* z_Binding.swift in Sources */,
-				540381C225578BD400CF52E3 /* z_EditButton.swift in Sources */,
+				54D8E16F256B34DB00050BC1 /* z_ContextMenu.swift in Sources */,
 				54D82F67256216190033169D /* z_Ellipse.swift in Sources */,
-				540381D525578C6800CF52E3 /* z_Slider.swift in Sources */,
+				54D8E18A256B34DB00050BC1 /* z_VSplitView.swift in Sources */,
 				54D82F28256211280033169D /* z_RoundedRectangle.swift in Sources */,
+				54D8E173256B34DB00050BC1 /* z_List.swift in Sources */,
+				54D8E186256B34DB00050BC1 /* z_LazyVStack.swift in Sources */,
+				54D8E174256B34DB00050BC1 /* z_TouchBar.swift in Sources */,
+				54D8E193256B34DB00050BC1 /* z_Stepper.swift in Sources */,
+				54D8E178256B34DB00050BC1 /* z_NavigationLink.swift in Sources */,
+				54D8E196256B34DB00050BC1 /* z_Section.swift in Sources */,
+				54D8E183256B34DB00050BC1 /* z_HStack.swift in Sources */,
+				54D8E181256B34DB00050BC1 /* z_DatePicker.swift in Sources */,
 				5493C1E62544FF7A00AD94F5 /* z_Font.swift in Sources */,
+				54D8E16B256B34DB00050BC1 /* z_Text.swift in Sources */,
+				54D8E17F256B34DB00050BC1 /* z_VStack.swift in Sources */,
+				54D8E16C256B34DB00050BC1 /* z_TextField.swift in Sources */,
 				54D82F49256211690033169D /* z_Capsule.swift in Sources */,
 				54D82F39256211640033169D /* z_Path.swift in Sources */,
-				542A5F82254799E500CB7C9F /* y_View19000.swift in Sources */,
+				54D8E18E256B34DB00050BC1 /* z_PasteButton.swift in Sources */,
+				54D8E177256B34DB00050BC1 /* z_LazyHStack.swift in Sources */,
+				54D8E17D256B34DB00050BC1 /* z_ForEach.swift in Sources */,
+				54D8E175256B34DB00050BC1 /* z_HSplitView.swift in Sources */,
 				547E9808253491D800E48BD2 /* UI_TestsApp.swift in Sources */,
+				54D8E180256B34DB00050BC1 /* z_Form.swift in Sources */,
 				5467B4B32565659900822BB6 /* z_SelectionShapeStyle.swift in Sources */,
 				5467B4F42565CFC900822BB6 /* z_ForegroundStyle.swift in Sources */,
-				540381D325578C6800CF52E3 /* z_Picker.swift in Sources */,
 				5493C1E22544FF7A00AD94F5 /* z_Json.swift in Sources */,
-				5493C2002544FF7A00AD94F5 /* z_LazyHStack.swift in Sources */,
-				54125F43254729FD004124D3 /* y_View.swift in Sources */,
-				545F853F254734CD00689264 /* y_View17179.swift in Sources */,
-				540381D725578C6800CF52E3 /* z_Stepper.swift in Sources */,
 				54D82F3F256211650033169D /* z_OffsetShape.swift in Sources */,
 				5467B4932565655000822BB6 /* z_RadialGradient.swift in Sources */,
-				540381C925578BDC00CF52E3 /* z_ContextMenu.swift in Sources */,
-				5493C1EC2544FF7A00AD94F5 /* z_Divider.swift in Sources */,
+				54D8E195256B34DB00050BC1 /* z_Toggle.swift in Sources */,
 				5493C1F82544FF7A00AD94F5 /* z_TupleView.swift in Sources */,
-				5493C1F42544FF7A00AD94F5 /* z_ZStack.swift in Sources */,
+				54D8E184256B34DB00050BC1 /* y_View17179.swift in Sources */,
+				54D8E172256B34DB00050BC1 /* z_Image.swift in Sources */,
 				5467B4AE2565659800822BB6 /* z_SeparatorShapeStyle.swift in Sources */,
+				54D8E18C256B34DB00050BC1 /* y_View18000.swift in Sources */,
+				54D8E182256B34DB00050BC1 /* z_TabView.swift in Sources */,
 				547724DE2564218200C5444F /* y_InsettableShape8045.swift in Sources */,
 				5467B4EE2565C1C600822BB6 /* z_Edge.swift in Sources */,
 				5493C1E42544FF7A00AD94F5 /* z_Color.swift in Sources */,
-				542A5F8B2547A05200CB7C9F /* y_View20000.swift in Sources */,
-				5493C1FE2544FF7A00AD94F5 /* z_Spacer.swift in Sources */,
-				5493C1F02544FF7A00AD94F5 /* z_VStack.swift in Sources */,
 				5467B48C256564F800822BB6 /* z_AngularGradient.swift in Sources */,
+				54D8E18B256B34DB00050BC1 /* z_SecureField.swift in Sources */,
+				54D8E189256B34DB00050BC1 /* z_GeometryReader.swift in Sources */,
 				5467B4992565655100822BB6 /* z_LinearGradient.swift in Sources */,
+				54D8E16D256B34DB00050BC1 /* z_EquatableView.swift in Sources */,
+				54D8E190256B34DB00050BC1 /* z_SubscriptionView.swift in Sources */,
 				5493C1FA2544FF7A00AD94F5 /* z_AnyView.swift in Sources */,
 				54D82F73256216260033169D /* z_Rectangle.swift in Sources */,
-				540381DE2557C8E700CF52E3 /* z_ForEach.swift in Sources */,
+				54D8E17C256B34DB00050BC1 /* z_EmptyView.swift in Sources */,
 				54738F0F2551AEE400D23741 /* z__OffsetEffect.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -640,8 +737,11 @@
 				542A5F8E2547A97800CB7C9F /* y_View21000.swift in Sources */,
 				5493C1E92544FF7A00AD94F5 /* z__PaddingLayout.swift in Sources */,
 				547724E7256423D000C5444F /* y_Shape13178.swift in Sources */,
+				54D8E131256B33AD00050BC1 /* z_VSplitView.swift in Sources */,
 				5492CB7F2557790600C5B326 /* z_DatePicker.swift in Sources */,
 				5467B4C82565673600822BB6 /* z_Angle.swift in Sources */,
+				54D8E0F7256B013200050BC1 /* z_EquatableView.swift in Sources */,
+				54D8E13A256B33D300050BC1 /* z_SubscriptionView.swift in Sources */,
 				5493C2032544FF7A00AD94F5 /* z_Text.swift in Sources */,
 				5467B4E125659C3B00822BB6 /* z_PinnedScrollableViews.swift in Sources */,
 				54D82F20256211210033169D /* z_Circle.swift in Sources */,
@@ -649,46 +749,62 @@
 				54D82F32256211610033169D /* z_RotatedShape.swift in Sources */,
 				5493C1E12544FF7A00AD94F5 /* y_DynaType.swift in Sources */,
 				5467B4C12565668300822BB6 /* z_Gradient.swift in Sources */,
+				54D8E124256B323F00050BC1 /* z_GroupBox.swift in Sources */,
 				54B9DF032557703C00A0E5ED /* z_Button.swift in Sources */,
 				540381B7255787A500CF52E3 /* z_Toggle.swift in Sources */,
 				5467B4D625659C2E00822BB6 /* z_UnitPoint.swift in Sources */,
+				54D8E13F256B33D500050BC1 /* z_NavigationView.swift in Sources */,
 				5467B4FA2565D00500822BB6 /* z_ImagePaint.swift in Sources */,
 				5467B49F2565655400822BB6 /* z_BackgroundStyle.swift in Sources */,
+				54D8E143256B33D600050BC1 /* z_NavigationLink.swift in Sources */,
 				5493C1DD2544FF7A00AD94F5 /* z_Animation.swift in Sources */,
+				54D8E197256B34DC00050BC1 /* z_TextField.swift in Sources */,
+				54D8E19A256B34DC00050BC1 /* z_MenuButton.swift in Sources */,
 				54D82F6A2562161C0033169D /* z_ContainerRelativeShape.swift in Sources */,
 				5493C1FD2544FF7A00AD94F5 /* z_LazyVStack.swift in Sources */,
 				5493C1EB2544FF7A00AD94F5 /* z_EmptyView.swift in Sources */,
 				5493C1DF2544FF7A00AD94F5 /* z_Accessibility.swift in Sources */,
 				5493C1F32544FF7A00AD94F5 /* z_HStack.swift in Sources */,
+				54D8E198256B34DC00050BC1 /* z_TouchBar.swift in Sources */,
 				5467B4CF2565674000822BB6 /* z_Binding.swift in Sources */,
 				540381C325578BD400CF52E3 /* z_EditButton.swift in Sources */,
 				54D82F64256216190033169D /* z_Ellipse.swift in Sources */,
 				540381D425578C6800CF52E3 /* z_Slider.swift in Sources */,
 				54D82F27256211280033169D /* z_RoundedRectangle.swift in Sources */,
+				54D8E0E9256AE1D100050BC1 /* z_GeometryReader.swift in Sources */,
 				5493C1E72544FF7A00AD94F5 /* z_Font.swift in Sources */,
+				54D8E19B256B34DC00050BC1 /* z_TabView.swift in Sources */,
 				54D82F4A256211690033169D /* z_Capsule.swift in Sources */,
 				54D82F3A256211640033169D /* z_Path.swift in Sources */,
 				542A5F85254799E500CB7C9F /* y_View19000.swift in Sources */,
 				549D7C4F253B625F00E70B72 /* UI_TestsApp.swift in Sources */,
 				5467B4B42565659900822BB6 /* z_SelectionShapeStyle.swift in Sources */,
+				54D8E19C256B34DC00050BC1 /* z_PasteButton.swift in Sources */,
 				5467B4F72565CFCA00822BB6 /* z_ForegroundStyle.swift in Sources */,
 				540381D225578C6800CF52E3 /* z_Picker.swift in Sources */,
+				54D8E109256B033800050BC1 /* z_Section.swift in Sources */,
 				5493C1E32544FF7A00AD94F5 /* z_Json.swift in Sources */,
 				5493C2012544FF7A00AD94F5 /* z_LazyHStack.swift in Sources */,
 				54125F42254729FD004124D3 /* y_View.swift in Sources */,
+				54D8E11B256B049900050BC1 /* z_ScrollView.swift in Sources */,
 				545F853E254734CD00689264 /* y_View17179.swift in Sources */,
 				540381D625578C6800CF52E3 /* z_Stepper.swift in Sources */,
 				54D82F3E256211650033169D /* z_OffsetShape.swift in Sources */,
 				5467B4942565655000822BB6 /* z_RadialGradient.swift in Sources */,
 				540381CA25578BDC00CF52E3 /* z_ContextMenu.swift in Sources */,
+				54D8E199256B34DC00050BC1 /* z_HSplitView.swift in Sources */,
 				5493C1ED2544FF7A00AD94F5 /* z_Divider.swift in Sources */,
+				54D8E154256B345800050BC1 /* z_List.swift in Sources */,
 				5493C1F92544FF7A00AD94F5 /* z_TupleView.swift in Sources */,
+				54D8E10E256B033A00050BC1 /* z_SecureField.swift in Sources */,
 				5493C1F52544FF7A00AD94F5 /* z_ZStack.swift in Sources */,
 				5467B4AF2565659800822BB6 /* z_SeparatorShapeStyle.swift in Sources */,
 				547724DB2564218200C5444F /* y_InsettableShape8045.swift in Sources */,
 				5467B4F12565C1C700822BB6 /* z_Edge.swift in Sources */,
 				5493C1E52544FF7A00AD94F5 /* z_Color.swift in Sources */,
 				542A5F882547A05200CB7C9F /* y_View20000.swift in Sources */,
+				54D8E0FF256B018900050BC1 /* z_Form.swift in Sources */,
+				54D8E129256B324000050BC1 /* z_Group.swift in Sources */,
 				5493C1FF2544FF7A00AD94F5 /* z_Spacer.swift in Sources */,
 				5493C1F12544FF7A00AD94F5 /* z_VStack.swift in Sources */,
 				5467B48F256564F900822BB6 /* z_AngularGradient.swift in Sources */,
