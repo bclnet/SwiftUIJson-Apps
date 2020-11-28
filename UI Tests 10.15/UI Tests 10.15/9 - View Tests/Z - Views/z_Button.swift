@@ -1,12 +1,6 @@
 import SwiftUI
 import SwiftUIJson
 
-//struct RedBorderedButtonStyle : PrimitiveButtonStyle {
-//    func makeBody(configuration: Configuration) -> some View {
-//        Button(configuration).border(Color.red)
-//    }
-//}
-
 struct z_Button: View {
     var body: some View {
         VStack {
@@ -17,8 +11,8 @@ struct z_Button: View {
                 Button(String("title"), action: { print("action") })
             }
             VStack {
-                Button("configuration", action: { print("action") })
-            }.buttonStyle(DefaultButtonStyle())
+                Button("configuration", action: { print("action") }).buttonStyle(DefaultButtonStyle())
+            }
         }
     }
 }

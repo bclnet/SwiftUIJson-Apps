@@ -1,12 +1,12 @@
 import SwiftUI
 import SwiftUIJson
 
-struct Item: Identifiable {
+fileprivate struct Item: Identifiable {
     let id: Int
 }
 
 struct z_ForEach: View {
-    let data = [Item(id: 0), Item(id: 1)]
+    fileprivate let data = [Item(id: 0), Item(id: 1)]
     let ints = 1..<5
     var body: some View {
         VStack {

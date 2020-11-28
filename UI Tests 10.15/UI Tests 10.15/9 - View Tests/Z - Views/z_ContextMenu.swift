@@ -7,7 +7,7 @@ struct z_ContextMenu: View {
             Text("ContextMenu")
             VStack {
                 Text("contextMenu").contextMenu { Text("item") }
-        //        Text("contextMenu").contextMenu(ContextMenu { Text("item") })
+                Text("contextMenu").contextMenu(ContextMenu { Text("item") })
             }
         }
     }

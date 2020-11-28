@@ -6,9 +6,8 @@ import UniformTypeIdentifiers
 // https://swiftui-lab.com/communicating-with-the-view-tree-part-2/
 // https://swiftui-lab.com/communicating-with-the-view-tree-part-3/
 enum ViewTest {
-    struct Item: Identifiable {
+    struct Item: Hashable, Identifiable {
         var id = "id"
-        //let bounds: Anchor<CGRect>?
     }
     
     class TestObject: NSObject, NSItemProviderWriting {

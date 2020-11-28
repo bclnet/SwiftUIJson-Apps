@@ -218,6 +218,7 @@
 		54738F272551B70000D23741 /* z__TabViewStyleModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = z__TabViewStyleModifier.swift; sourceTree = "<group>"; };
 		547724DA2564212500C5444F /* y_InsettableShape8045.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = y_InsettableShape8045.swift; sourceTree = "<group>"; };
 		547724E3256423AA00C5444F /* y_Shape13178.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = y_Shape13178.swift; sourceTree = "<group>"; };
+		547825352572FD82006E4593 /* z_Link.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = z_Link.swift; sourceTree = "<group>"; };
 		547E97F5253491D700E48BD2 /* UI_TestsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UI_TestsApp.swift; sourceTree = "<group>"; };
 		547E97F6253491D700E48BD2 /* TestView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestView.swift; sourceTree = "<group>"; };
 		547E97F7253491D800E48BD2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -498,6 +499,7 @@
 				5493C1D02544FF7A00AD94F5 /* z_Image.swift */,
 				5493C1DA2544FF7A00AD94F5 /* z_LazyHStack.swift */,
 				5493C1D82544FF7A00AD94F5 /* z_LazyVStack.swift */,
+				547825352572FD82006E4593 /* z_Link.swift */,
 				54D8E152256B345800050BC1 /* z_List.swift */,
 				54D8E14C256B344C00050BC1 /* z_MenuButton.swift */,
 				54D8E141256B33D600050BC1 /* z_NavigationLink.swift */,
