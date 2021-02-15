@@ -5,7 +5,7 @@ struct z_Spacer: View {
     var body: some View {
         VStack {
             Text("Spacer")
-            VStack {
+            Group {
                 Text("default")
                 Spacer()
                 Text("minLength")

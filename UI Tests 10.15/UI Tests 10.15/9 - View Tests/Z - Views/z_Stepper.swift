@@ -8,7 +8,7 @@ struct z_Stepper: View {
     var body: some View {
         VStack {
             Text("Stepper")
-            VStack {
+            Group {
                 Text("Int")
                 Stepper(onIncrement: { print("onIncrement") }, onDecrement: { print("onDecrement") }, onEditingChanged: { _ in }) { Text("label") }
                 Stepper(value: $int, step: 1, onEditingChanged: { _ in }) { Text("label") }.hint(self, step: 1)
@@ -20,11 +20,11 @@ struct z_Stepper: View {
                 Stepper(String("title"), value: $int, step: 1, onEditingChanged: { _ in })
                 Stepper(String("title"), value: $int, in: 0...100, step: 1, onEditingChanged: { _ in })
             }
-            VStack {
+            Group {
                 Text("Int8")
                 Stepper("titleKey", value: $int8, step: 1, onEditingChanged: { _ in })
             }
-            VStack {
+            Group {
                 Text("Float")
                 Stepper("titleKey", value: $float, step: 1, onEditingChanged: { _ in })
             }

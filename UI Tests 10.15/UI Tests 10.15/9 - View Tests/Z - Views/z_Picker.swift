@@ -7,15 +7,15 @@ struct z_Picker: View {
     var body: some View {
         VStack {
             Text("Picker")
-            VStack {
+            Group {
                 Picker(selection: $selection, label: Text("label")) { Text("content") }
                 Picker("titleKey", selection: $selection) { Text("content") }
                 Picker(String("title"), selection: $selection) { Text("content") }
             }
-            VStack {
-                Picker("titleKey", selection: $selection, content: { Text("content") })
-            }.pickerStyle(DefaultPickerStyle())
-//            VStack {
+            Group {
+                Picker("titleKey", selection: $selection, content: { Text("content") }).pickerStyle(DefaultPickerStyle())
+            }
+//            Group {
 //                Picker(selection: $selection, label: Text("label")) {
 //                    ForEach(0 ..< frameworks.count) {
 //                        Text(frameworks[$0])

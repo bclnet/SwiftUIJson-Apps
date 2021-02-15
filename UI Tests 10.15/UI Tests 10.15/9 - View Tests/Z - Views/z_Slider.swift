@@ -6,7 +6,7 @@ struct z_Slider: View {
     var body: some View {
         VStack {
             Text("Slider")
-            VStack {
+            Group {
                 Slider(value: $value, in: -100...100, onEditingChanged: { _ in }, minimumValueLabel: Text("min"), maximumValueLabel: Text("max")) { Text("label") }
                 Slider(value: $value, in: 0...100, step: 1, onEditingChanged: { _ in }, minimumValueLabel: Text("min"), maximumValueLabel: Text("max")) { Text("label") }
                 Slider(value: $value, in: -100...100, onEditingChanged: { _ in }) { Text("label") }

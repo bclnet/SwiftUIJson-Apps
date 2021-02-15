@@ -6,7 +6,7 @@ struct z_SecureField: View {
     var body: some View {
         VStack {
             Text("SecureField")
-            VStack {
+            Group {
                 SecureField("titleKey", text: $text) { print("onCommit") }
                 SecureField(String("title"), text: $text) { print("onCommit") }
             }

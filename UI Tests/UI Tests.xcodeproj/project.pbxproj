@@ -95,6 +95,8 @@
 		5493C2012544FF7A00AD94F5 /* z_LazyHStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5493C1DA2544FF7A00AD94F5 /* z_LazyHStack.swift */; };
 		5493C2032544FF7A00AD94F5 /* z_Text.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5493C1DB2544FF7A00AD94F5 /* z_Text.swift */; };
 		549D7C4F253B625F00E70B72 /* UI_TestsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 547E97F5253491D700E48BD2 /* UI_TestsApp.swift */; };
+		54A6FDD12573117A004E378F /* z_Link.swift in Sources */ = {isa = PBXBuildFile; fileRef = 547825352572FD82006E4593 /* z_Link.swift */; };
+		54A6FDD42573117B004E378F /* z_Link.swift in Sources */ = {isa = PBXBuildFile; fileRef = 547825352572FD82006E4593 /* z_Link.swift */; };
 		54B9DF032557703C00A0E5ED /* z_Button.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54B9DF022557703C00A0E5ED /* z_Button.swift */; };
 		54D82F20256211210033169D /* z_Circle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54738F212551B61400D23741 /* z_Circle.swift */; };
 		54D82F23256211210033169D /* z_Circle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54738F212551B61400D23741 /* z_Circle.swift */; };
@@ -720,6 +722,7 @@
 				54D8E16D256B34DB00050BC1 /* z_EquatableView.swift in Sources */,
 				54D8E190256B34DB00050BC1 /* z_SubscriptionView.swift in Sources */,
 				5493C1FA2544FF7A00AD94F5 /* z_AnyView.swift in Sources */,
+				54A6FDD12573117A004E378F /* z_Link.swift in Sources */,
 				54D82F73256216260033169D /* z_Rectangle.swift in Sources */,
 				54D8E17C256B34DB00050BC1 /* z_EmptyView.swift in Sources */,
 				54738F0F2551AEE400D23741 /* z__OffsetEffect.swift in Sources */,
@@ -812,6 +815,7 @@
 				5467B48F256564F900822BB6 /* z_AngularGradient.swift in Sources */,
 				5467B4982565655100822BB6 /* z_LinearGradient.swift in Sources */,
 				5493C1FB2544FF7A00AD94F5 /* z_AnyView.swift in Sources */,
+				54A6FDD42573117B004E378F /* z_Link.swift in Sources */,
 				54D82F70256216260033169D /* z_Rectangle.swift in Sources */,
 				540381DD2557C8E700CF52E3 /* z_ForEach.swift in Sources */,
 				54738F102551AEE400D23741 /* z__OffsetEffect.swift in Sources */,

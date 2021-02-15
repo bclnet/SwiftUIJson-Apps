@@ -3,11 +3,10 @@ import SwiftUIJson
 import Combine
  
 struct z_SubscriptionView: View {
-    
     var body: some View {
         VStack {
             Text("SubscriptionView")
-//            SubscriptionView(content: Text("content"), publisher: PassthroughSubject<Any, Never>().eraseToAnyPublisher()) { _ in print("action") }
+            SubscriptionView(content: Text("content"), publisher: PassthroughSubject<Any, Never>()) { _ in print("action") }
         }
     }
 }

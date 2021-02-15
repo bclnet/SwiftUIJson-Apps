@@ -5,7 +5,7 @@ struct z_Text: View {
     var body: some View {
         VStack {
             Text("Text")
-            VStack {
+            Group {
                 // MARK: - Text:14785
                 Text(verbatim: "verbatim")
                 Text(String("content"))
@@ -28,7 +28,7 @@ struct z_Text: View {
                 Text("key", tableName: nil, bundle: nil, comment: nil)
                 Text("key", tableName: "table", bundle: nil, comment: nil)
             }
-            VStack {
+            Group {
                 Text("foregroundColor").foregroundColor(.blue)
                 Text("font").font(.title)
                 Text("fontWeight").fontWeight(.black)
